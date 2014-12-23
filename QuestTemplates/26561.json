@@ -1,0 +1,65 @@
+{
+  "QuestID": 26561,
+  "Version": 2,
+  "FactionGroup": 2,
+  "CreatedOn": "2014-12-22T19:25:39.5436184Z",
+  "UpdatedOn": "2014-12-22T19:25:58.6007057Z",
+  "Comment": "",
+  "CreatedBy": null,
+  "RecommendedLevel": 17,
+  "Frequency": 1,
+  "QuestStart": {
+    "ObjectName": "Jorgensen",
+    "EntryId": 43305,
+    "AdditionalEntryIds": null,
+    "ContinentId": 0,
+    "ZoneId": 44,
+    "Position": "-8714.589 -2345.449 155.9198",
+    "TurnInType": 0,
+    "IsIndoors": true,
+    "MyFaction": 0
+  },
+  "QuestEnd": {
+    "ObjectName": "Krakauer",
+    "EntryId": 43274,
+    "AdditionalEntryIds": null,
+    "ContinentId": 0,
+    "ZoneId": 44,
+    "Position": "-8694.16 -2144.71 159.8133",
+    "TurnInType": 0,
+    "IsIndoors": true,
+    "MyFaction": 2
+  },
+  "ActionOrder": 1,
+  "Actions": [
+    {
+      "$type": "KillMobsTemplate",
+      "TargetObjects": [
+        {
+          "Hotspot": {
+            "Position": "-8693.57 -2148.47 158.4009",
+            "GroundPosition": "0 0 0",
+            "IsGroundPosition": false,
+            "IsIndoors": true,
+            "ContinentId": 0
+          },
+          "Name": "Ritualist Tarak",
+          "EntryId": 43363
+        }
+      ],
+      "HotspotsX": [
+        {
+          "Position": "-8692.347 -2150.041 158.512",
+          "GroundPosition": "0 0 0",
+          "IsIndoors": true,
+          "ContinentId": 0
+        }
+      ],
+      "Blackspots": [],
+      "ForceLoot": false,
+      "ForcePullMobs": false,
+      "GameObjectiveIndex": 1,
+      "RunTime": 5.0
+    }
+  ]
+}

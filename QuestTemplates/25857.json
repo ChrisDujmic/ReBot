@@ -1,0 +1,49 @@
+{
+  "QuestID": 25857,
+  "Version": 1,
+  "FactionGroup": 2,
+  "UpdatedOn": "2014-12-23T21:05:12.6281023Z",
+  "Comment": "",
+  "CreatedBy": null,
+  "QuestStart": {
+    "ObjectName": "James Halloran",
+    "EntryId": 41433,
+    "AdditionalEntryIds": null,
+    "ContinentId": 0,
+    "ZoneId": 11,
+    "Position": "-2884.736 -1496.576 10.75021",
+    "TurnInType": 0,
+    "IsIndoors": true,
+    "MyFaction": 0
+  },
+  "ActionOrder": 1,
+  "Actions": [
+    {
+      "$type": "KillMobsTemplate",
+      "TargetObjects": [
+        {
+          "Hotspot": {
+            "Position": "-2758.274 -1684.844 5.602137",
+            "GroundPosition": "0 0 0",
+            "InWater": true,
+            "ContinentId": 0
+          },
+          "Name": "Horrorkiefer",
+          "EntryId": 41420
+        }
+      ],
+      "HotspotsX": [
+        {
+          "Position": "-2785.703 -1637.346 9.567763",
+          "GroundPosition": "0 0 0",
+          "ContinentId": 0
+        }
+      ],
+      "Blackspots": [],
+      "ForceLoot": true,
+      "ForcePullMobs": false,
+      "GameObjectiveIndex": 1,
+      "RunTime": 5.0
+    }
+  ]
+}

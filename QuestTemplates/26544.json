@@ -1,0 +1,57 @@
+{
+  "QuestID": 26544,
+  "Version": 2,
+  "FactionGroup": 0,
+  "CreatedOn": "2014-09-09T06:10:13.6742146Z",
+  "UpdatedOn": "2014-12-21T17:26:58.8826102Z",
+  "Comment": "Added Questgiver",
+  "CreatedBy": null,
+  "RecommendedLevel": 16,
+  "QuestStart": {
+    "ObjectName": "Magistrat Solomon",
+    "EntryId": 344,
+    "AdditionalEntryIds": null,
+    "ContinentId": 0,
+    "ZoneId": 44,
+    "Position": "-9218.61 -2221.804 67.53977",
+    "TurnInType": 0,
+    "IsIndoors": true,
+    "MyFaction": 2
+  },
+  "QuestEnd": {
+    "ObjectName": "WatchFramePopup",
+    "EntryId": 0,
+    "AdditionalEntryIds": null,
+    "ContinentId": 0,
+    "ZoneId": 44,
+    "Position": "0 0 0",
+    "TurnInType": 4,
+    "MyFaction": 0
+  },
+  "ActionOrder": 1,
+  "Actions": [
+    {
+      "$type": "KillMobsTemplate",
+      "TargetObjects": [
+        {
+          "Name": "Blackrock Overseer",
+          "EntryId": 43185
+        }
+      ],
+      "HotspotsX": [
+        {
+          "Position": "-8941.651 -1988.601 138.9764",
+          "GroundPosition": "0 0 0",
+          "IsGroundPosition": false,
+          "IsIndoors": true,
+          "ContinentId": 0
+        }
+      ],
+      "Blackspots": [],
+      "ForceLoot": true,
+      "ForcePullMobs": false,
+      "GameObjectiveIndex": 1,
+      "RunTime": 5.0
+    }
+  ]
+}

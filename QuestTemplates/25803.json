@@ -1,0 +1,32 @@
+{
+  "QuestID": 25803,
+  "Version": 1,
+  "FactionGroup": 2,
+  "UpdatedOn": "2014-12-23T19:48:36.9753649Z",
+  "Comment": "",
+  "CreatedBy": null,
+  "QuestStart": {
+    "ObjectName": "Beschädigte Kiste",
+    "EntryId": 261,
+    "AdditionalEntryIds": null,
+    "ContinentId": 0,
+    "ZoneId": 11,
+    "Position": "-3288.32 -948.6945 8.9405",
+    "TurnInType": 1,
+    "IsIndoors": true,
+    "MyFaction": 0
+  },
+  "QuestEnd": {
+    "ObjectName": "Versiegeltes Fass",
+    "EntryId": 142151,
+    "AdditionalEntryIds": [],
+    "ContinentId": 0,
+    "ZoneId": 11,
+    "Position": "-3206.01 -951.2589 7.872684",
+    "TurnInType": 1,
+    "IsIndoors": true,
+    "MyFaction": 2
+  },
+  "ActionOrder": 1,
+  "Actions": []
+}

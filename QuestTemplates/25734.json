@@ -1,0 +1,51 @@
+{
+  "QuestID": 25734,
+  "Version": 1,
+  "FactionGroup": 2,
+  "UpdatedOn": "2014-12-23T18:02:17.9826043Z",
+  "Comment": "",
+  "CreatedBy": null,
+  "QuestStart": {
+    "ObjectName": "Feldmesser Thurdan",
+    "EntryId": 41129,
+    "AdditionalEntryIds": null,
+    "ContinentId": 0,
+    "ZoneId": 11,
+    "Position": "-4116.55 -2766.2 17.92975",
+    "TurnInType": 0,
+    "IsIndoors": true,
+    "MyFaction": 0
+  },
+  "ActionOrder": 1,
+  "Actions": [
+    {
+      "$type": "CollectObjectsTemplate",
+      "TargetObjects": [
+        {
+          "Hotspot": {
+            "Position": "-3969.917 -2369.445 18.20819",
+            "GroundPosition": "0 0 0",
+            "IsIndoors": true,
+            "ContinentId": 0
+          },
+          "Name": "Seismograph von Thelgen",
+          "EntryId": 203184
+        }
+      ],
+      "HotspotsX": [
+        {
+          "Position": "-3928.665 -2364.435 18.20792",
+          "GroundPosition": "0 0 0",
+          "IsIndoors": true,
+          "ContinentId": 0
+        }
+      ],
+      "Blackspots": [],
+      "IsLoot": true,
+      "OpeningCast": true,
+      "NoMovement": false,
+      "GameObjectiveIndex": 1,
+      "RunTime": 5.0
+    }
+  ]
+}

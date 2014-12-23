@@ -1,0 +1,81 @@
+{
+  "QuestID": 25733,
+  "Version": 3,
+  "FactionGroup": 2,
+  "CreatedOn": "2014-12-23T18:15:05.3713698Z",
+  "UpdatedOn": "2014-12-23T18:16:42.5409276Z",
+  "Comment": "",
+  "CreatedBy": null,
+  "RecommendedLevel": 21,
+  "Frequency": 1,
+  "QuestStart": {
+    "ObjectName": "Forba Fliesmeißel",
+    "EntryId": 41086,
+    "AdditionalEntryIds": null,
+    "ContinentId": 0,
+    "ZoneId": 11,
+    "Position": "-4125.83 -2767.82 17.93025",
+    "TurnInType": 0,
+    "IsIndoors": true,
+    "MyFaction": 0
+  },
+  "ActionOrder": 1,
+  "Actions": [
+    {
+      "$type": "KillMobsTemplate",
+      "TargetObjects": [
+        {
+          "Hotspot": {
+            "Position": "-3940.807 -2299.729 19.35816",
+            "GroundPosition": "0 0 0",
+            "IsGroundPosition": false,
+            "IsIndoors": true,
+            "ContinentId": 0
+          },
+          "Name": "Höhlenpirscher",
+          "EntryId": 4040
+        }
+      ],
+      "HotspotsX": [
+        {
+          "Position": "-3894.405 -2332.422 22.24918",
+          "GroundPosition": "0 0 0",
+          "IsGroundPosition": false,
+          "IsIndoors": true,
+          "ContinentId": 0
+        }
+      ],
+      "Blackspots": [],
+      "ForceLoot": false,
+      "ForcePullMobs": false,
+      "GameObjectiveIndex": 2,
+      "RunTime": 5.0
+    },
+    {
+      "$type": "KillMobsTemplate",
+      "TargetObjects": [
+        {
+          "Hotspot": {
+            "Position": "-3898.971 -2595.154 42.08964",
+            "GroundPosition": "0 0 0",
+            "ContinentId": 0
+          },
+          "Name": "Egelpirscher",
+          "EntryId": 1111
+        }
+      ],
+      "HotspotsX": [
+        {
+          "Position": "-3903.323 -2593.127 42.27676",
+          "GroundPosition": "0 0 0",
+          "ContinentId": 0
+        }
+      ],
+      "Blackspots": [],
+      "ForceLoot": false,
+      "ForcePullMobs": false,
+      "GameObjectiveIndex": 1,
+      "RunTime": 5.0
+    }
+  ]
+}

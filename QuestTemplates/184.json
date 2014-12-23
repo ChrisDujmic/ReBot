@@ -1,0 +1,22 @@
+{
+  "QuestID": 184,
+  "Version": 2,
+  "FactionGroup": 2,
+  "CreatedOn": "2014-12-20T18:20:00.0677662Z",
+  "UpdatedOn": "2014-12-20T18:20:19.0888542Z",
+  "Comment": "",
+  "CreatedBy": null,
+  "QuestStart": {
+    "ObjectName": "Urkunde von Westfall",
+    "EntryId": 203734,
+    "AdditionalEntryIds": null,
+    "ContinentId": 0,
+    "ZoneId": 12,
+    "Position": "-10146.34 675.7323 35.9689",
+    "TurnInType": 1,
+    "IsIndoors": true,
+    "MyFaction": 2
+  },
+  "ActionOrder": 1,
+  "Actions": []
+}

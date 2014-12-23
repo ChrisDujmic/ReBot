@@ -1,0 +1,31 @@
+{
+  "QuestID": 26981,
+  "Version": 1,
+  "FactionGroup": 2,
+  "UpdatedOn": "2014-12-23T22:07:10.6747624Z",
+  "Comment": "",
+  "CreatedBy": null,
+  "QuestStart": {
+    "ObjectName": "Shilah Fliesmeißel",
+    "EntryId": 41415,
+    "AdditionalEntryIds": null,
+    "ContinentId": 0,
+    "ZoneId": 11,
+    "Position": "-2866.884 -1503.222 10.20145",
+    "TurnInType": 0,
+    "IsIndoors": true,
+    "MyFaction": 0
+  },
+  "QuestEnd": {
+    "ObjectName": "Ausgrabungsleiter Whelgar",
+    "EntryId": 41411,
+    "AdditionalEntryIds": null,
+    "ContinentId": 0,
+    "ZoneId": 11,
+    "Position": "-3232.656 -1999.408 50.5479",
+    "TurnInType": 0,
+    "MyFaction": 2
+  },
+  "ActionOrder": 1,
+  "Actions": []
+}

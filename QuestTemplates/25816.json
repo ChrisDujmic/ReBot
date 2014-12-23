@@ -1,0 +1,31 @@
+{
+  "QuestID": 25816,
+  "Version": 1,
+  "FactionGroup": 2,
+  "UpdatedOn": "2014-12-23T19:56:52.824607Z",
+  "Comment": "",
+  "CreatedBy": null,
+  "QuestStart": {
+    "ObjectName": "Erster Maat Fitzsimmons",
+    "EntryId": 1239,
+    "AdditionalEntryIds": null,
+    "ContinentId": 0,
+    "ZoneId": 11,
+    "Position": "-3794.61 -842.481 0.8879207",
+    "TurnInType": 0,
+    "IsIndoors": true,
+    "MyFaction": 0
+  },
+  "QuestEnd": {
+    "ObjectName": "Erster Maat Snellig",
+    "EntryId": 41307,
+    "AdditionalEntryIds": null,
+    "ContinentId": 0,
+    "ZoneId": 11,
+    "Position": "-2957.703 -1019.526 10.37228",
+    "TurnInType": 0,
+    "MyFaction": 2
+  },
+  "ActionOrder": 1,
+  "Actions": []
+}

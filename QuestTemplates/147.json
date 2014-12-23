@@ -1,0 +1,50 @@
+{
+  "QuestID": 147,
+  "Version": 1,
+  "FactionGroup": 2,
+  "UpdatedOn": "2014-12-20T17:47:18.2225551Z",
+  "Comment": "lets try",
+  "CreatedBy": null,
+  "QuestStart": {
+    "ObjectName": "Marschall McCree",
+    "EntryId": 42256,
+    "AdditionalEntryIds": null,
+    "ContinentId": 0,
+    "ZoneId": 12,
+    "Position": "-9468.153 -1305.781 44.15007",
+    "TurnInType": 0,
+    "IsIndoors": true,
+    "MyFaction": 0
+  },
+  "ActionOrder": 1,
+  "Actions": [
+    {
+      "$type": "CollectObjectsTemplate",
+      "TargetObjects": [
+        {
+          "Hotspot": {
+            "Position": "-9806.254 -932.1237 39.85632",
+            "GroundPosition": "0 0 0",
+            "IsIndoors": true,
+            "ContinentId": 0
+          },
+          "Name": "Morgan der Sammler",
+          "EntryId": 473
+        }
+      ],
+      "HotspotsX": [
+        {
+          "Position": "-9785 -927.8128 39.29857",
+          "GroundPosition": "0 0 0",
+          "ContinentId": 0
+        }
+      ],
+      "Blackspots": [],
+      "IsLoot": true,
+      "OpeningCast": false,
+      "NoMovement": false,
+      "GameObjectiveIndex": 1,
+      "RunTime": 5.0
+    }
+  ]
+}

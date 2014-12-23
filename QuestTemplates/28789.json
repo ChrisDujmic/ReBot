@@ -1,0 +1,33 @@
+{
+  "QuestID": 28789,
+  "Version": 1,
+  "FactionGroup": 0,
+  "CreatedOn": "2014-08-10T12:09:32.3522277Z",
+  "UpdatedOn": "2014-12-20T13:29:33.1300024Z",
+  "Comment": "",
+  "CreatedBy": null,
+  "RecommendedLevel": 3,
+  "QuestStart": {
+    "ObjectName": "Llane Beshere",
+    "EntryId": 911,
+    "AdditionalEntryIds": null,
+    "ContinentId": 0,
+    "ZoneId": 6170,
+    "Position": "-8918.364 -208.4109 82.12621",
+    "TurnInType": 0,
+    "IsIndoors": true,
+    "MyFaction": 0
+  },
+  "QuestEnd": {
+    "ObjectName": "Sergeant Willem",
+    "EntryId": 823,
+    "AdditionalEntryIds": null,
+    "ContinentId": 0,
+    "ZoneId": 6170,
+    "Position": "-8827.837 -158.6233 79.85914",
+    "TurnInType": 0,
+    "MyFaction": 0
+  },
+  "ActionOrder": 1,
+  "Actions": []
+}

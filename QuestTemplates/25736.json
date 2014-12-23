@@ -1,0 +1,30 @@
+{
+  "QuestID": 25736,
+  "Version": 1,
+  "FactionGroup": 2,
+  "UpdatedOn": "2014-12-23T18:41:04.5432262Z",
+  "Comment": "",
+  "CreatedBy": null,
+  "QuestStart": {
+    "ObjectName": "Item",
+    "EntryId": 0,
+    "AdditionalEntryIds": null,
+    "ContinentId": 0,
+    "ZoneId": 11,
+    "Position": "-4123.156 -2763.055 17.93184",
+    "TurnInType": 3,
+    "MyFaction": 2
+  },
+  "QuestEnd": {
+    "ObjectName": "Forba Fliesmeißel",
+    "EntryId": 41086,
+    "AdditionalEntryIds": null,
+    "ContinentId": 0,
+    "ZoneId": 11,
+    "Position": "-4125.83 -2767.82 17.93056",
+    "TurnInType": 0,
+    "MyFaction": 2
+  },
+  "ActionOrder": 1,
+  "Actions": []
+}

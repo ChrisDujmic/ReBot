@@ -1,0 +1,32 @@
+{
+  "QuestID": 28823,
+  "Version": 1,
+  "FactionGroup": 0,
+  "CreatedOn": "2014-08-10T12:18:23.3545993Z",
+  "UpdatedOn": "2014-12-20T13:43:01.8722598Z",
+  "Comment": "",
+  "CreatedBy": null,
+  "RecommendedLevel": 4,
+  "QuestStart": {
+    "ObjectName": "Sergeant Willem",
+    "EntryId": 823,
+    "AdditionalEntryIds": null,
+    "ContinentId": 0,
+    "ZoneId": 6170,
+    "Position": "-8827.837 -158.6233 79.85904",
+    "TurnInType": 0,
+    "MyFaction": 0
+  },
+  "QuestEnd": {
+    "ObjectName": "Marshal McBride",
+    "EntryId": 197,
+    "AdditionalEntryIds": null,
+    "ContinentId": 0,
+    "ZoneId": 6170,
+    "Position": "-8913.069 -137.4063 80.81774",
+    "TurnInType": 0,
+    "MyFaction": 0
+  },
+  "ActionOrder": 1,
+  "Actions": []
+}

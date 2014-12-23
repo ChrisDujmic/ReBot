@@ -1,0 +1,48 @@
+{
+  "QuestID": 25850,
+  "Version": 1,
+  "FactionGroup": 2,
+  "UpdatedOn": "2014-12-23T22:11:13.4986511Z",
+  "Comment": "",
+  "CreatedBy": null,
+  "QuestStart": {
+    "ObjectName": "Ormer Eisenzopf",
+    "EntryId": 41412,
+    "AdditionalEntryIds": null,
+    "ContinentId": 0,
+    "ZoneId": 11,
+    "Position": "-3236.997 -1986.802 50.54789",
+    "TurnInType": 0,
+    "IsIndoors": true,
+    "MyFaction": 0
+  },
+  "ActionOrder": 1,
+  "Actions": [
+    {
+      "$type": "KillMobsTemplate",
+      "TargetObjects": [
+        {
+          "Hotspot": {
+            "Position": "-3414.542 -1806.328 16.26255",
+            "GroundPosition": "0 0 0",
+            "ContinentId": 0
+          },
+          "Name": "Paläolithischer Elementar",
+          "EntryId": 41389
+        }
+      ],
+      "HotspotsX": [
+        {
+          "Position": "-3361.22 -1813.444 24.04782",
+          "GroundPosition": "0 0 0",
+          "ContinentId": 0
+        }
+      ],
+      "Blackspots": [],
+      "ForceLoot": false,
+      "ForcePullMobs": false,
+      "GameObjectiveIndex": 1,
+      "RunTime": 5.0
+    }
+  ]
+}

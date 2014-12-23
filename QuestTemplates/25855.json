@@ -1,0 +1,49 @@
+{
+  "QuestID": 25855,
+  "Version": 1,
+  "FactionGroup": 2,
+  "UpdatedOn": "2014-12-23T21:07:05.6725681Z",
+  "Comment": "",
+  "CreatedBy": null,
+  "QuestStart": {
+    "ObjectName": "Fradd Schnellschalt",
+    "EntryId": 41435,
+    "AdditionalEntryIds": null,
+    "ContinentId": 0,
+    "ZoneId": 11,
+    "Position": "-2860.983 -1498.894 11.04879",
+    "TurnInType": 0,
+    "IsIndoors": true,
+    "MyFaction": 0
+  },
+  "ActionOrder": 1,
+  "Actions": [
+    {
+      "$type": "CollectObjectsTemplate",
+      "TargetObjects": [
+        {
+          "Hotspot": {
+            "Position": "-2877.72 -1680.49 11.009",
+            "GroundPosition": "0 0 0",
+            "ContinentId": 0
+          },
+          "Name": "Schnellschalts Dingsda",
+          "EntryId": 203286
+        }
+      ],
+      "HotspotsX": [
+        {
+          "Position": "-2879.8 -1676.253 10.6571",
+          "GroundPosition": "0 0 0",
+          "ContinentId": 0
+        }
+      ],
+      "Blackspots": [],
+      "IsLoot": true,
+      "OpeningCast": true,
+      "NoMovement": false,
+      "GameObjectiveIndex": 1,
+      "RunTime": 5.0
+    }
+  ]
+}

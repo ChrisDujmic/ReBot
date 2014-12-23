@@ -1,0 +1,35 @@
+{
+  "QuestID": 26563,
+  "Version": 2,
+  "FactionGroup": 2,
+  "CreatedOn": "2014-12-22T19:50:28.7843314Z",
+  "UpdatedOn": "2014-12-22T19:50:41.3234409Z",
+  "Comment": "",
+  "CreatedBy": null,
+  "RecommendedLevel": 17,
+  "Frequency": 1,
+  "QuestStart": {
+    "ObjectName": "Danforth",
+    "EntryId": 43302,
+    "AdditionalEntryIds": null,
+    "ContinentId": 0,
+    "ZoneId": 44,
+    "Position": "-8810.429 -2205.62 133.248",
+    "TurnInType": 0,
+    "IsIndoors": true,
+    "MyFaction": 0
+  },
+  "QuestEnd": {
+    "ObjectName": "Oberst Trottmann",
+    "EntryId": 43221,
+    "AdditionalEntryIds": null,
+    "ContinentId": 0,
+    "ZoneId": 44,
+    "Position": "-9212.22 -2215.35 66.18016",
+    "TurnInType": 0,
+    "IsIndoors": true,
+    "MyFaction": 2
+  },
+  "ActionOrder": 1,
+  "Actions": []
+}

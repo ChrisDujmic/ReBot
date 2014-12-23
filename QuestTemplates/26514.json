@@ -1,0 +1,108 @@
+{
+  "QuestID": 26514,
+  "Version": 2,
+  "FactionGroup": 0,
+  "CreatedOn": "2014-09-06T17:22:47.0998107Z",
+  "UpdatedOn": "2014-12-21T17:18:03.8990109Z",
+  "Comment": "He will acept the quest if \"Popup\" automatic, but i add questgiver for guys who abbadon the Quest and finished it later .",
+  "CreatedBy": null,
+  "RecommendedLevel": 16,
+  "QuestStart": {
+    "ObjectName": "Magistrat Solomon",
+    "EntryId": 344,
+    "AdditionalEntryIds": null,
+    "ContinentId": 0,
+    "ZoneId": 44,
+    "Position": "-9218.61 -2221.804 67.53977",
+    "TurnInType": 0,
+    "IsIndoors": true,
+    "MyFaction": 2
+  },
+  "QuestEnd": {
+    "ObjectName": "WatchFramePopup",
+    "EntryId": 0,
+    "AdditionalEntryIds": null,
+    "ContinentId": 0,
+    "ZoneId": 44,
+    "Position": "0 0 0",
+    "TurnInType": 4,
+    "MyFaction": 0
+  },
+  "ActionOrder": 1,
+  "Actions": [
+    {
+      "$type": "KillMobsTemplate",
+      "TargetObjects": [
+        {
+          "Name": "Redridge Mystic",
+          "EntryId": 430
+        },
+        {
+          "Name": "Redridge Basher",
+          "EntryId": 446
+        }
+      ],
+      "HotspotsX": [
+        {
+          "Position": "-9066.021 -2407.629 126.7373",
+          "GroundPosition": "0 0 0",
+          "IsGroundPosition": false,
+          "ContinentId": 0
+        },
+        {
+          "Position": "-9076.117 -2397.657 125.874",
+          "GroundPosition": "0 0 0",
+          "IsGroundPosition": false,
+          "ContinentId": 0
+        },
+        {
+          "Position": "-9041.844 -2400.462 129.6367",
+          "GroundPosition": "0 0 0",
+          "IsGroundPosition": false,
+          "ContinentId": 0
+        },
+        {
+          "Position": "-9005.608 -2377.632 132.7193",
+          "GroundPosition": "0 0 0",
+          "IsGroundPosition": false,
+          "ContinentId": 0
+        },
+        {
+          "Position": "-8956.89 -2300.057 132.4678",
+          "GroundPosition": "0 0 0",
+          "IsGroundPosition": false,
+          "ContinentId": 0
+        },
+        {
+          "Position": "-8911.148 -2235.599 134.0153",
+          "GroundPosition": "0 0 0",
+          "IsGroundPosition": false,
+          "ContinentId": 0
+        },
+        {
+          "Position": "-8923.404 -2191.594 134.2133",
+          "GroundPosition": "0 0 0",
+          "IsGroundPosition": false,
+          "ContinentId": 0
+        },
+        {
+          "Position": "-9002.827 -2200.419 132.5127",
+          "GroundPosition": "0 0 0",
+          "IsGroundPosition": false,
+          "ContinentId": 0
+        },
+        {
+          "Position": "-9060.36 -2193.133 130.4831",
+          "GroundPosition": "0 0 0",
+          "IsGroundPosition": false,
+          "ContinentId": 0
+        }
+      ],
+      "Blackspots": [],
+      "ForceLoot": true,
+      "ForcePullMobs": false,
+      "GameObjectiveIndex": 1,
+      "RunTime": 5.0
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "QuestID": 123,
+  "Version": 3,
+  "FactionGroup": 2,
+  "CreatedOn": "2014-12-20T16:37:40.324593Z",
+  "UpdatedOn": "2014-12-20T16:42:11.3750962Z",
+  "Comment": "",
+  "CreatedBy": null,
+  "QuestStart": {
+    "ObjectName": "Item",
+    "EntryId": 0,
+    "AdditionalEntryIds": null,
+    "ContinentId": 0,
+    "ZoneId": 12,
+    "Position": "-9494.009 -1196.453 49.56501",
+    "TurnInType": 3,
+    "MyFaction": 2
+  },
+  "QuestEnd": {
+    "ObjectName": "Marschall McCree",
+    "EntryId": 42256,
+    "AdditionalEntryIds": null,
+    "ContinentId": 0,
+    "ZoneId": 12,
+    "Position": "-9468.153 -1305.781 44.15007",
+    "TurnInType": 0,
+    "MyFaction": 2
+  },
+  "ActionOrder": 1,
+  "Actions": []
+}

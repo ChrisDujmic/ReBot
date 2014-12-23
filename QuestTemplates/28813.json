@@ -1,0 +1,77 @@
+{
+  "QuestID": 28813,
+  "Version": 3,
+  "FactionGroup": 2,
+  "CreatedOn": "2014-08-10T12:11:37.7173982Z",
+  "UpdatedOn": "2014-12-20T19:11:45.1483667Z",
+  "Comment": "",
+  "CreatedBy": null,
+  "RecommendedLevel": 3,
+  "Frequency": 1,
+  "QuestStart": {
+    "ObjectName": "Brother Paxton",
+    "EntryId": 951,
+    "AdditionalEntryIds": null,
+    "ContinentId": 0,
+    "ZoneId": 6170,
+    "Position": "-8817.617 -151.767 81.43225",
+    "TurnInType": 0,
+    "MyFaction": 0
+  },
+  "ActionOrder": 1,
+  "Actions": [
+    {
+      "$type": "CollectObjectsTemplate",
+      "TargetObjects": [
+        {
+          "Hotspot": {
+            "Position": "-8775.286 -139.6146 82.16772",
+            "GroundPosition": "0 0 0",
+            "IsGroundPosition": false,
+            "ContinentId": 0
+          },
+          "Name": "Injured Stormwind Infantry",
+          "EntryId": 50047
+        }
+      ],
+      "HotspotsX": [
+        {
+          "Position": "-8808.416 -127.0466 83.13754",
+          "GroundPosition": "0 0 0",
+          "IsGroundPosition": false,
+          "ContinentId": 0
+        },
+        {
+          "Position": "-8756.997 -98.93428 89.03696",
+          "GroundPosition": "0 0 0",
+          "IsGroundPosition": false,
+          "ContinentId": 0
+        },
+        {
+          "Position": "-8722.635 -120.5377 85.8138",
+          "GroundPosition": "0 0 0",
+          "IsGroundPosition": false,
+          "ContinentId": 0
+        },
+        {
+          "Position": "-8726.914 -152.6715 85.31013",
+          "GroundPosition": "0 0 0",
+          "IsGroundPosition": false,
+          "ContinentId": 0
+        },
+        {
+          "Position": "-8750.92 -184.8169 85.36511",
+          "GroundPosition": "0 0 0",
+          "IsGroundPosition": false,
+          "ContinentId": 0
+        }
+      ],
+      "Blackspots": [],
+      "IsLoot": true,
+      "OpeningCast": false,
+      "NoMovement": false,
+      "GameObjectiveIndex": 1,
+      "RunTime": 5.0
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "QuestID": 26322,
+  "Version": 1,
+  "FactionGroup": 0,
+  "CreatedOn": "2014-12-12T11:23:49.0983996Z",
+  "UpdatedOn": "2014-12-21T15:13:50.1796825Z",
+  "Comment": "If quest not start directly Gryhan have a diffrent ID",
+  "CreatedBy": null,
+  "QuestStart": {
+    "ObjectName": "Marschall Gryan Starkmantel",
+    "EntryId": 234,
+    "AdditionalEntryIds": [
+      42750
+    ],
+    "ContinentId": 0,
+    "ZoneId": 40,
+    "Position": "-10508.79 1045.233 60.51798",
+    "TurnInType": 0,
+    "MyFaction": 2
+  },
+  "QuestEnd": {
+    "ObjectName": "König Varian Wrynn",
+    "EntryId": 29611,
+    "AdditionalEntryIds": null,
+    "ContinentId": 0,
+    "ZoneId": 0,
+    "Position": "-8363.06 232.2361 156.9906",
+    "TurnInType": 0,
+    "MyFaction": 0
+  },
+  "ActionOrder": 1,
+  "Actions": [
+    {
+      "$type": "WaitTemplate",
+      "TimeSeconds": 100.0,
+      "GameObjectiveIndex": 1,
+      "RunTime": -1.0
+    }
+  ]
+}

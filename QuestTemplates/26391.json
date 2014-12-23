@@ -1,0 +1,70 @@
+{
+  "QuestID": 26391,
+  "Version": 1,
+  "FactionGroup": 0,
+  "CreatedOn": "2014-08-10T12:20:15.3700062Z",
+  "UpdatedOn": "2014-12-20T13:44:31.9134099Z",
+  "Comment": "",
+  "CreatedBy": null,
+  "RecommendedLevel": 4,
+  "QuestStart": {
+    "ObjectName": "Milly Osworth",
+    "EntryId": 9296,
+    "AdditionalEntryIds": null,
+    "ContinentId": 0,
+    "ZoneId": 6170,
+    "Position": "-8923.88 -135.8889 81.02888",
+    "TurnInType": 0,
+    "MyFaction": 0
+  },
+  "ActionOrder": 1,
+  "Actions": [
+    {
+      "$type": "UseItemTemplate",
+      "UseMethod": 0,
+      "OverrideCooldown": 0.0,
+      "OverrideCastTime": 2.0,
+      "StayMounted": false,
+      "MinCastRange": 4.5,
+      "DontFilterDeadUnits": false,
+      "UseCount": 1,
+      "TargetUnits": [
+        {
+          "Name": "Northshire Vineyards Fire Trigger",
+          "EntryId": 42940
+        }
+      ],
+      "HotspotsX": [
+        {
+          "Position": "-9031.282 -329.6433 73.53226",
+          "GroundPosition": "0 0 0",
+          "IsGroundPosition": false,
+          "ContinentId": 0
+        },
+        {
+          "Position": "-9071.513 -325.455 73.45283",
+          "GroundPosition": "0 0 0",
+          "IsGroundPosition": false,
+          "ContinentId": 0
+        },
+        {
+          "Position": "-9085.031 -368.3479 73.45255",
+          "GroundPosition": "0 0 0",
+          "IsGroundPosition": false,
+          "ContinentId": 0
+        }
+      ],
+      "Blackspots": [],
+      "Item": [
+        {
+          "Name": "Milly's Fire Extinguisher",
+          "EntryId": 58362
+        }
+      ],
+      "BanTime": 120.0,
+      "BanMobCombatAfterUse": false,
+      "GameObjectiveIndex": 1,
+      "RunTime": 5.0
+    }
+  ]
+}

@@ -1,0 +1,98 @@
+{
+  "QuestID": 86,
+  "Version": 2,
+  "FactionGroup": 0,
+  "CreatedOn": "2014-09-03T11:46:17.5673448Z",
+  "UpdatedOn": "2014-12-20T15:37:04.3056246Z",
+  "Comment": "",
+  "CreatedBy": null,
+  "RecommendedLevel": 6,
+  "QuestStart": {
+    "ObjectName": "Billy Maclure",
+    "EntryId": 247,
+    "AdditionalEntryIds": null,
+    "ContinentId": 0,
+    "ZoneId": 0,
+    "Position": "-9923.681 38.38715 32.41259",
+    "TurnInType": 0,
+    "MyFaction": 0
+  },
+  "QuestEnd": {
+    "ObjectName": "\"Auntie\" Bernice Stonefield",
+    "EntryId": 246,
+    "AdditionalEntryIds": null,
+    "ContinentId": 0,
+    "ZoneId": 12,
+    "Position": "-9889.681 338.4665 36.49803",
+    "TurnInType": 0,
+    "MyFaction": 0
+  },
+  "ActionOrder": 1,
+  "Actions": [
+    {
+      "$type": "KillMobsTemplate",
+      "TargetObjects": [
+        {
+          "Name": "Stonetusk Boar",
+          "EntryId": 113
+        }
+      ],
+      "HotspotsX": [
+        {
+          "Position": "-9926.201 43.80958 32.42069",
+          "GroundPosition": "0 0 0",
+          "IsGroundPosition": false,
+          "ContinentId": 0
+        },
+        {
+          "Position": "-9936.648 121.196 33.02662",
+          "GroundPosition": "0 0 0",
+          "IsGroundPosition": false,
+          "ContinentId": 0
+        },
+        {
+          "Position": "-9992.275 106.829 34.26159",
+          "GroundPosition": "0 0 0",
+          "IsGroundPosition": false,
+          "ContinentId": 0
+        },
+        {
+          "Position": "-10023.55 134.4631 33.42944",
+          "GroundPosition": "0 0 0",
+          "IsGroundPosition": false,
+          "ContinentId": 0
+        },
+        {
+          "Position": "-10051.47 154.4825 28.07511",
+          "GroundPosition": "0 0 0",
+          "IsGroundPosition": false,
+          "ContinentId": 0
+        },
+        {
+          "Position": "-10032.25 78.20068 34.58662",
+          "GroundPosition": "0 0 0",
+          "IsGroundPosition": false,
+          "ContinentId": 0
+        },
+        {
+          "Position": "-9961.51 49.86604 33.49602",
+          "GroundPosition": "0 0 0",
+          "IsGroundPosition": false,
+          "ContinentId": 0
+        },
+        {
+          "Position": "-10012.17 39.2725 35.16989",
+          "GroundPosition": "0 0 0",
+          "IsGroundPosition": false,
+          "IsIndoors": true,
+          "ContinentId": 0
+        }
+      ],
+      "Blackspots": [],
+      "ForceLoot": true,
+      "ForcePullMobs": false,
+      "GameObjectiveIndex": 1,
+      "RunTime": 5.0
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "QuestID": 60,
+  "Version": 1,
+  "FactionGroup": 0,
+  "CreatedOn": "2014-12-12T11:24:00.8500717Z",
+  "UpdatedOn": "2014-12-20T14:00:10.2110774Z",
+  "Comment": "",
+  "CreatedBy": null,
+  "QuestStart": {
+    "ObjectName": "William Pestle",
+    "EntryId": 253,
+    "AdditionalEntryIds": null,
+    "ContinentId": 0,
+    "ZoneId": 0,
+    "Position": "-9460.302 31.93891 56.96619",
+    "TurnInType": 0,
+    "MyFaction": 0
+  },
+  "ActionOrder": 1,
+  "Actions": [
+    {
+      "$type": "KillMobsTemplate",
+      "TargetObjects": [
+        {
+          "Name": "Kobold Tunneler",
+          "EntryId": 475
+        }
+      ],
+      "HotspotsX": [
+        {
+          "Position": "-9870.298 172.845 19.17025",
+          "GroundPosition": "0 0 0",
+          "IsGroundPosition": false
+        },
+        {
+          "Position": "-9888.766 220.4592 14.10425",
+          "GroundPosition": "0 0 0",
+          "IsGroundPosition": false
+        },
+        {
+          "Position": "-9854.494 182.9782 20.60758",
+          "GroundPosition": "0 0 0",
+          "IsGroundPosition": false
+        },
+        {
+          "Position": "-9817.397 182.5175 22.78288",
+          "GroundPosition": "0 0 0",
+          "IsGroundPosition": false
+        },
+        {
+          "Position": "-9792.725 149.134 24.39711",
+          "GroundPosition": "0 0 0",
+          "IsGroundPosition": false
+        }
+      ],
+      "Blackspots": [
+        "-9789.429 136.559 51.48502 33.00796"
+      ],
+      "ForceLoot": true,
+      "ForcePullMobs": true,
+      "GameObjectiveIndex": 1,
+      "RunTime": 5.0
+    }
+  ]
+}

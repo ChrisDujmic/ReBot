@@ -1,0 +1,63 @@
+{
+  "QuestID": 26560,
+  "Version": 2,
+  "FactionGroup": 2,
+  "CreatedOn": "2014-12-22T19:18:42.3651792Z",
+  "UpdatedOn": "2014-12-22T19:21:15.0870091Z",
+  "Comment": "",
+  "CreatedBy": null,
+  "RecommendedLevel": 17,
+  "Frequency": 1,
+  "QuestStart": {
+    "ObjectName": "Messner",
+    "EntryId": 43300,
+    "AdditionalEntryIds": null,
+    "ContinentId": 0,
+    "ZoneId": 44,
+    "Position": "-9211.637 -2213.31 66.18048",
+    "TurnInType": 0,
+    "IsIndoors": true,
+    "MyFaction": 0
+  },
+  "QuestEnd": {
+    "ObjectName": "Jorgensen",
+    "EntryId": 43272,
+    "AdditionalEntryIds": null,
+    "ContinentId": 0,
+    "ZoneId": 44,
+    "Position": "-8717.79 -2340.73 156.4093",
+    "TurnInType": 0,
+    "MyFaction": 2
+  },
+  "ActionOrder": 1,
+  "Actions": [
+    {
+      "$type": "KillMobsTemplate",
+      "TargetObjects": [
+        {
+          "Hotspot": {
+            "Position": "-8699.94 -2597.76 142.5534",
+            "GroundPosition": "0 0 0",
+            "IsGroundPosition": false,
+            "ContinentId": 0
+          },
+          "Name": "Utroka die Schlüsselmeisterin",
+          "EntryId": 43350
+        }
+      ],
+      "HotspotsX": [
+        {
+          "Position": "-8733.201 -2578.937 132.6133",
+          "GroundPosition": "0 0 0",
+          "IsGroundPosition": false,
+          "ContinentId": 0
+        }
+      ],
+      "Blackspots": [],
+      "ForceLoot": true,
+      "ForcePullMobs": false,
+      "GameObjectiveIndex": 1,
+      "RunTime": 5.0
+    }
+  ]
+}

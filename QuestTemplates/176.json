@@ -1,0 +1,63 @@
+{
+  "QuestID": 176,
+  "Version": 4,
+  "FactionGroup": 2,
+  "CreatedOn": "2014-12-12T11:23:45.9662204Z",
+  "UpdatedOn": "2014-12-20T18:25:23.5832703Z",
+  "Comment": "",
+  "CreatedBy": null,
+  "RecommendedLevel": 11,
+  "Frequency": 1,
+  "QuestStart": {
+    "ObjectName": "Steckbrief",
+    "EntryId": 68,
+    "AdditionalEntryIds": null,
+    "ContinentId": 0,
+    "ZoneId": 12,
+    "Position": "-9666.285 688.0107 37.23008",
+    "TurnInType": 1,
+    "IsIndoors": true,
+    "MyFaction": 2
+  },
+  "QuestEnd": {
+    "ObjectName": "Marschall Dughan",
+    "EntryId": 240,
+    "AdditionalEntryIds": null,
+    "ContinentId": 0,
+    "ZoneId": 12,
+    "Position": "-9465.521 74.00694 56.59559",
+    "TurnInType": 0,
+    "MyFaction": 2
+  },
+  "ActionOrder": 1,
+  "Actions": [
+    {
+      "$type": "KillMobsTemplate",
+      "TargetObjects": [
+        {
+          "Hotspot": {
+            "Position": "-10132.37 667.2209 35.84241",
+            "GroundPosition": "0 0 0",
+            "IsGroundPosition": false,
+            "ContinentId": 0
+          },
+          "Name": "Hogger",
+          "EntryId": 448
+        }
+      ],
+      "HotspotsX": [
+        {
+          "Position": "-10128.8 664.0276 35.88741",
+          "GroundPosition": "0 0 0",
+          "IsGroundPosition": false,
+          "ContinentId": 0
+        }
+      ],
+      "Blackspots": [],
+      "ForceLoot": false,
+      "ForcePullMobs": false,
+      "GameObjectiveIndex": 1,
+      "RunTime": 5.0
+    }
+  ]
+}

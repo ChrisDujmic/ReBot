@@ -1,0 +1,26 @@
+{
+  "QuestID": 25867,
+  "Version": 4,
+  "FactionGroup": 2,
+  "CreatedOn": "2014-12-23T21:25:32.2138586Z",
+  "UpdatedOn": "2014-12-23T21:56:01.2914759Z",
+  "Comment": "",
+  "CreatedBy": null,
+  "RecommendedLevel": 23,
+  "Frequency": 1,
+  "QuestStart": {
+    "ObjectName": "Shilah Fliesmeißel",
+    "EntryId": 41415,
+    "AdditionalEntryIds": null,
+    "ContinentId": 0,
+    "ZoneId": 11,
+    "Position": "-2866.884 -1503.222 10.2015",
+    "TurnInType": 0,
+    "IsIndoors": true,
+    "MyFaction": 0
+  },
+  "UseScript": true,
+  "ScriptText": "{\r\n  \"Children\": [\r\n    {\r\n      \"$type\": \"If\",\r\n      \"ActionsFalse\": {\r\n        \"Children\": [],\r\n        \"IsSpecialElement\": true,\r\n        \"SpecialElementName\": \"Else\",\r\n        \"GroupName\": \"\"\r\n      },\r\n      \"ActionsTrue\": {\r\n        \"Children\": [\r\n          {\r\n            \"$type\": \"MoveTo\",\r\n            \"Hotspot\": {\r\n              \"Position\": \"-3081.6 -2214.2 9.5\",\r\n              \"GroundPosition\": \"0 0 0\",\r\n              \"IsGroundPosition\": false,\r\n              \"ContinentId\": 0\r\n            },\r\n            \"Method\": \"Navi\"\r\n          }\r\n        ],\r\n        \"IsSpecialElement\": true,\r\n        \"SpecialElementName\": \"Then\",\r\n        \"GroupName\": \"\"\r\n      },\r\n      \"Condition\": {\r\n        \"$type\": \"IsQuestComplete\",\r\n        \"QuestId\": 25867\r\n      },\r\n      \"IsNot\": true\r\n    },\r\n    {\r\n      \"$type\": \"While\",\r\n      \"LoopActions\": {\r\n        \"Children\": [\r\n          {\r\n            \"$type\": \"If\",\r\n            \"ActionsFalse\": {\r\n              \"Children\": [\r\n                {\r\n                  \"$type\": \"KillMobsTemplateScriptAction\",\r\n                  \"Template\": {\r\n                    \"$type\": \"KillMobsTemplate\",\r\n                    \"TargetObjects\": [\r\n                      {\r\n                        \"Hotspot\": {\r\n                          \"Position\": \"-3005.3 -2094.67 9.90676\",\r\n                          \"GroundPosition\": \"0 0 0\",\r\n                          \"IsGroundPosition\": false,\r\n                          \"ContinentId\": 0\r\n                        },\r\n                        \"Name\": \"Fallensteller der Dunkeleisenzwerge\",\r\n                        \"EntryId\": 41409\r\n                      }\r\n                    ],\r\n                    \"HotspotsX\": [\r\n                      {\r\n                        \"Position\": \"-3014.638 -2103.962 9.825706\",\r\n                        \"GroundPosition\": \"0 0 0\",\r\n                        \"IsGroundPosition\": false,\r\n                        \"ContinentId\": 0\r\n                      }\r\n                    ],\r\n                    \"Blackspots\": [],\r\n                    \"ForceLoot\": true,\r\n                    \"ForcePullMobs\": false,\r\n                    \"GameObjectiveIndex\": 1,\r\n                    \"RunTime\": 5.0\r\n                  },\r\n                  \"TimeLimit\": 0\r\n                }\r\n              ],\r\n              \"IsSpecialElement\": true,\r\n              \"SpecialElementName\": \"Else\",\r\n              \"GroupName\": \"\"\r\n            },\r\n            \"ActionsTrue\": {\r\n              \"Children\": [\r\n                {\r\n                  \"$type\": \"Interact\",\r\n                  \"Target\": {\r\n                    \"Name\": \"Gefangener der Moosfelle\",\r\n                    \"EntryId\": 41410\r\n                  },\r\n                  \"NumOfTimes\": 0\r\n                },\r\n                {\r\n                  \"$type\": \"Interact\",\r\n                  \"Target\": {\r\n                    \"Name\": \"Gnollkäfig\",\r\n                    \"EntryId\": 203282\r\n                  },\r\n                  \"NumOfTimes\": 0\r\n                }\r\n              ],\r\n              \"IsSpecialElement\": true,\r\n              \"SpecialElementName\": \"Then\",\r\n              \"GroupName\": \"\"\r\n            },\r\n            \"Condition\": {\r\n              \"$type\": \"PlayerCondition\",\r\n              \"Property\": \"HasItem\",\r\n              \"Parameter\": \"56081\"\r\n            },\r\n            \"IsNot\": false\r\n          }\r\n        ],\r\n        \"IsSpecialElement\": true,\r\n        \"SpecialElementName\": \"Do\",\r\n        \"GroupName\": \"\"\r\n      },\r\n      \"Condition\": {\r\n        \"$type\": \"IsQuestComplete\",\r\n        \"QuestId\": 25867\r\n      },\r\n      \"IsNot\": true\r\n    }\r\n  ],\r\n  \"GroupName\": \"\"\r\n}",
+  "ActionOrder": 2,
+  "Actions": []
+}

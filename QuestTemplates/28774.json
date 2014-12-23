@@ -1,0 +1,65 @@
+{
+  "QuestID": 28774,
+  "Version": 1,
+  "FactionGroup": 0,
+  "CreatedOn": "2014-08-10T12:04:08.8147224Z",
+  "UpdatedOn": "2014-12-20T14:04:53.1812624Z",
+  "Comment": "",
+  "CreatedBy": null,
+  "RecommendedLevel": 3,
+  "QuestStart": {
+    "ObjectName": "Marshal McBride",
+    "EntryId": 197,
+    "AdditionalEntryIds": null,
+    "ContinentId": 0,
+    "ZoneId": 6170,
+    "Position": "-8913.069 -137.4063 80.81829",
+    "TurnInType": 0,
+    "MyFaction": 0
+  },
+  "ActionOrder": 1,
+  "Actions": [
+    {
+      "$type": "KillMobsTemplate",
+      "TargetObjects": [
+        {
+          "Hotspot": {
+            "Position": "-8876.997 -91.99251 83.6405",
+            "GroundPosition": "0 0 0",
+            "IsGroundPosition": false,
+            "ContinentId": 0
+          },
+          "Name": "Blackrock Spy",
+          "EntryId": 49874
+        }
+      ],
+      "HotspotsX": [
+        {
+          "Position": "-8915.834 -78.43983 87.63007",
+          "GroundPosition": "0 0 0",
+          "IsGroundPosition": false
+        },
+        {
+          "Position": "-8866.4 -76.55652 83.71991",
+          "GroundPosition": "0 0 0",
+          "IsGroundPosition": false
+        },
+        {
+          "Position": "-8827.062 -94.81749 85.0116",
+          "GroundPosition": "0 0 0",
+          "IsGroundPosition": false
+        },
+        {
+          "Position": "-8796.288 -72.17258 88.49237",
+          "GroundPosition": "0 0 0",
+          "IsGroundPosition": false
+        }
+      ],
+      "Blackspots": [],
+      "ForceLoot": false,
+      "ForcePullMobs": false,
+      "GameObjectiveIndex": 1,
+      "RunTime": 5.0
+    }
+  ]
+}

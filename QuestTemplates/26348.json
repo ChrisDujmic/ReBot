@@ -1,0 +1,91 @@
+{
+  "QuestID": 26348,
+  "Version": 2,
+  "FactionGroup": 2,
+  "CreatedOn": "2014-12-21T14:31:04.8989568Z",
+  "UpdatedOn": "2014-12-21T14:32:24.9045329Z",
+  "Comment": "",
+  "CreatedBy": null,
+  "RecommendedLevel": 15,
+  "Frequency": 1,
+  "QuestStart": {
+    "ObjectName": "Kapitän Grausohn",
+    "EntryId": 392,
+    "AdditionalEntryIds": null,
+    "ContinentId": 0,
+    "ZoneId": 40,
+    "Position": "-11397.82 1949.042 10.01392",
+    "TurnInType": 0,
+    "IsIndoors": true,
+    "MyFaction": 0
+  },
+  "ActionOrder": 1,
+  "Actions": [
+    {
+      "$type": "KillMobsTemplate",
+      "TargetObjects": [
+        {
+          "Hotspot": {
+            "Position": "-11359.34 1866.335 1.214754",
+            "GroundPosition": "0 0 0",
+            "IsGroundPosition": false,
+            "ContinentId": 0
+          },
+          "Name": "Murlocgezeitenjäger",
+          "EntryId": 127
+        }
+      ],
+      "HotspotsX": [
+        {
+          "Position": "-11351.13 1912.719 0.8219865",
+          "GroundPosition": "0 0 0",
+          "IsGroundPosition": false,
+          "ContinentId": 0
+        },
+        {
+          "Position": "-11395.46 1819.334 3.227862",
+          "GroundPosition": "0 0 0",
+          "IsGroundPosition": false,
+          "ContinentId": 0
+        }
+      ],
+      "Blackspots": [],
+      "ForceLoot": true,
+      "ForcePullMobs": false,
+      "GameObjectiveIndex": 1,
+      "RunTime": 5.0
+    },
+    {
+      "$type": "KillMobsTemplate",
+      "TargetObjects": [
+        {
+          "Hotspot": {
+            "Position": "-11362.39 1856.592 1.443775",
+            "GroundPosition": "0 0 0",
+            "IsGroundPosition": false,
+            "ContinentId": 0
+          },
+          "Name": "Murlocorakel",
+          "EntryId": 517
+        }
+      ],
+      "HotspotsX": [
+        {
+          "Position": "-11402.03 1788.018 8.162704",
+          "GroundPosition": "0 0 0",
+          "ContinentId": 0
+        },
+        {
+          "Position": "-11122.48 2014.634 5.750443",
+          "GroundPosition": "0 0 0",
+          "ContinentId": 0
+        }
+      ],
+      "Blackspots": [],
+      "ForceLoot": true,
+      "ForcePullMobs": false,
+      "GameObjectiveIndex": 2,
+      "RunTime": 5.0
+    }
+  ]
+}

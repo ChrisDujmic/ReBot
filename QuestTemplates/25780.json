@@ -1,0 +1,52 @@
+{
+  "QuestID": 25780,
+  "Version": 2,
+  "FactionGroup": 2,
+  "CreatedOn": "2014-12-23T19:05:38.7512895Z",
+  "UpdatedOn": "2014-12-23T19:08:04.9166262Z",
+  "Comment": "",
+  "CreatedBy": null,
+  "QuestStart": {
+    "ObjectName": "Hauptmann Starkfaust",
+    "EntryId": 2104,
+    "AdditionalEntryIds": null,
+    "ContinentId": 0,
+    "ZoneId": 11,
+    "Position": "-3683.297 -824.5052 1.317329",
+    "TurnInType": 0,
+    "IsIndoors": true,
+    "MyFaction": 0
+  },
+  "ActionOrder": 1,
+  "Actions": [
+    {
+      "$type": "KillMobsTemplate",
+      "TargetObjects": [
+        {
+          "Hotspot": {
+            "Position": "-3735.013 -801.8611 20.55613",
+            "GroundPosition": "0 0 0",
+            "IsGroundPosition": false,
+            "IsIndoors": true,
+            "ContinentId": 0
+          },
+          "Name": "Horghast Loderwahn",
+          "EntryId": 41273
+        }
+      ],
+      "HotspotsX": [
+        {
+          "Position": "-3716.141 -817.5455 19.01256",
+          "GroundPosition": "0 0 0",
+          "IsIndoors": true,
+          "ContinentId": 0
+        }
+      ],
+      "Blackspots": [],
+      "ForceLoot": false,
+      "ForcePullMobs": false,
+      "GameObjectiveIndex": 1,
+      "RunTime": 5.0
+    }
+  ]
+}

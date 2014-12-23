@@ -1,0 +1,51 @@
+{
+  "QuestID": 25735,
+  "Version": 1,
+  "FactionGroup": 2,
+  "UpdatedOn": "2014-12-23T18:09:16.6094937Z",
+  "Comment": "",
+  "CreatedBy": null,
+  "QuestStart": {
+    "ObjectName": "Dunlor Marmorbart",
+    "EntryId": 41128,
+    "AdditionalEntryIds": null,
+    "ContinentId": 0,
+    "ZoneId": 11,
+    "Position": "-4118.5 -2781.31 17.92285",
+    "TurnInType": 0,
+    "IsIndoors": true,
+    "MyFaction": 0
+  },
+  "ActionOrder": 1,
+  "Actions": [
+    {
+      "$type": "CollectObjectsTemplate",
+      "TargetObjects": [
+        {
+          "Hotspot": {
+            "Position": "-3865.042 -2326.578 22.49836",
+            "GroundPosition": "0 0 0",
+            "IsIndoors": true,
+            "ContinentId": 0
+          },
+          "Name": "Pyrophormineralvorkommen",
+          "EntryId": 203188
+        }
+      ],
+      "HotspotsX": [
+        {
+          "Position": "-3892.737 -2347.564 21.60186",
+          "GroundPosition": "0 0 0",
+          "IsIndoors": true,
+          "ContinentId": 0
+        }
+      ],
+      "Blackspots": [],
+      "IsLoot": true,
+      "OpeningCast": true,
+      "NoMovement": false,
+      "GameObjectiveIndex": 1,
+      "RunTime": 5.0
+    }
+  ]
+}

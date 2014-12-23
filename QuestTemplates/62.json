@@ -1,0 +1,36 @@
+{
+  "QuestID": 62,
+  "Version": 2,
+  "FactionGroup": 0,
+  "CreatedOn": "2014-09-03T11:50:54.7932012Z",
+  "UpdatedOn": "2014-12-20T13:58:44.2081584Z",
+  "Comment": "",
+  "CreatedBy": null,
+  "RecommendedLevel": 7,
+  "QuestStart": {
+    "ObjectName": "Marschall Dughan",
+    "EntryId": 240,
+    "AdditionalEntryIds": null,
+    "ContinentId": 0,
+    "ZoneId": 0,
+    "Position": "-9465.521 74.00694 56.59624",
+    "TurnInType": 0,
+    "MyFaction": 0
+  },
+  "ActionOrder": 1,
+  "Actions": [
+    {
+      "$type": "MoveToTemplate",
+      "Hotspots": [
+        {
+          "Position": "-9795.856 152.2272 24.58154",
+          "GroundPosition": "0 0 0",
+          "IsGroundPosition": false
+        }
+      ],
+      "PreventMounting": false,
+      "GameObjectiveIndex": 1,
+      "RunTime": 5.0
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "QuestID": 25726,
+  "Version": 1,
+  "FactionGroup": 2,
+  "UpdatedOn": "2014-12-23T17:43:13.173294Z",
+  "Comment": "",
+  "CreatedBy": null,
+  "QuestStart": {
+    "ObjectName": "Feldmesser Thurdan",
+    "EntryId": 41129,
+    "AdditionalEntryIds": null,
+    "ContinentId": 0,
+    "ZoneId": 11,
+    "Position": "-4116.55 -2766.2 17.92975",
+    "TurnInType": 0,
+    "IsIndoors": true,
+    "MyFaction": 0
+  },
+  "ActionOrder": 1,
+  "Actions": [
+    {
+      "$type": "KillMobsTemplate",
+      "TargetObjects": [
+        {
+          "Hotspot": {
+            "Position": "-4170.34 -2788.384 25.74422",
+            "GroundPosition": "0 0 0",
+            "ContinentId": 0
+          },
+          "Name": "Schmieriger Schlammling",
+          "EntryId": 41145
+        }
+      ],
+      "HotspotsX": [
+        {
+          "Position": "-4128.526 -2779.485 17.92456",
+          "GroundPosition": "0 0 0",
+          "ContinentId": 0
+        }
+      ],
+      "Blackspots": [],
+      "ForceLoot": true,
+      "ForcePullMobs": true,
+      "GameObjectiveIndex": 1,
+      "RunTime": 5.0
+    }
+  ]
+}

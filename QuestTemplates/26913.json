@@ -1,0 +1,66 @@
+{
+  "QuestID": 26913,
+  "Version": 1,
+  "FactionGroup": 0,
+  "CreatedOn": "2014-08-10T12:06:13.5158549Z",
+  "UpdatedOn": "2014-12-20T13:27:50.8861544Z",
+  "Comment": "",
+  "CreatedBy": null,
+  "RecommendedLevel": 3,
+  "QuestStart": {
+    "ObjectName": "Llane Beshere",
+    "EntryId": 911,
+    "AdditionalEntryIds": null,
+    "ContinentId": 0,
+    "ZoneId": 0,
+    "Position": "-8918.364 -208.4109 82.12599",
+    "TurnInType": 0,
+    "MyFaction": 0
+  },
+  "ActionOrder": 1,
+  "Actions": [
+    {
+      "$type": "MoveToTemplate",
+      "Hotspots": [
+        {
+          "Position": "-8950.098 -136.6079 82.48535",
+          "GroundPosition": "0 0 0",
+          "IsGroundPosition": false,
+          "ContinentId": 0
+        }
+      ],
+      "PreventMounting": false,
+      "GameObjectiveIndex": 2,
+      "RunTime": 5.0
+    },
+    {
+      "$type": "UseSpellTemplate",
+      "TargetObjects": [
+        {
+          "Hotspot": {
+            "Position": "-8965.57 -146.288 81.50985",
+            "GroundPosition": "0 0 0",
+            "IsGroundPosition": false,
+            "ContinentId": 0
+          },
+          "Name": "Training Dummy",
+          "EntryId": 44548
+        }
+      ],
+      "HotspotsX": [
+        {
+          "Position": "-8950.098 -136.6079 82.48535",
+          "GroundPosition": "0 0 0",
+          "IsGroundPosition": false,
+          "ContinentId": 0
+        }
+      ],
+      "SpellNameEn": "Charge",
+      "KillTarget": false,
+      "IgnoreCombat": true,
+      "ClickOnTerrain": false,
+      "GameObjectiveIndex": 2,
+      "RunTime": 5.0
+    }
+  ]
+}

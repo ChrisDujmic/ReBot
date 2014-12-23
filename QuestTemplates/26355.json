@@ -1,0 +1,32 @@
+{
+  "QuestID": 26355,
+  "Version": 1,
+  "FactionGroup": 2,
+  "UpdatedOn": "2014-12-21T14:57:22.5501933Z",
+  "Comment": "",
+  "CreatedBy": null,
+  "QuestStart": {
+    "ObjectName": "Zerbrochenes Fass",
+    "EntryId": 36,
+    "AdditionalEntryIds": null,
+    "ContinentId": 0,
+    "ZoneId": 40,
+    "Position": "-10515.17 1598.615 27.6535",
+    "TurnInType": 1,
+    "IsIndoors": true,
+    "MyFaction": 0
+  },
+  "QuestEnd": {
+    "ObjectName": "Alter Henkelkrug",
+    "EntryId": 34,
+    "AdditionalEntryIds": [],
+    "ContinentId": 0,
+    "ZoneId": 40,
+    "Position": "-9797.295 1594.66 39.69501",
+    "TurnInType": 1,
+    "IsIndoors": true,
+    "MyFaction": 2
+  },
+  "ActionOrder": 1,
+  "Actions": []
+}

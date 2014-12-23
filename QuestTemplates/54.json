@@ -1,0 +1,32 @@
+{
+  "QuestID": 54,
+  "Version": 1,
+  "FactionGroup": 0,
+  "CreatedOn": "2014-08-10T12:34:17.9101968Z",
+  "UpdatedOn": "2014-12-20T13:52:59.8454619Z",
+  "Comment": "",
+  "CreatedBy": null,
+  "RecommendedLevel": 5,
+  "QuestStart": {
+    "ObjectName": "Marshal McBride",
+    "EntryId": 197,
+    "AdditionalEntryIds": null,
+    "ContinentId": 0,
+    "ZoneId": 6170,
+    "Position": "-8913.069 -137.4063 80.81792",
+    "TurnInType": 0,
+    "MyFaction": 0
+  },
+  "QuestEnd": {
+    "ObjectName": "Marshal Dughan",
+    "EntryId": 240,
+    "AdditionalEntryIds": null,
+    "ContinentId": 0,
+    "ZoneId": 12,
+    "Position": "-9465.521 74.00694 56.59529",
+    "TurnInType": 0,
+    "MyFaction": 0
+  },
+  "ActionOrder": 1,
+  "Actions": []
+}

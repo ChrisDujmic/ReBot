@@ -1,0 +1,49 @@
+{
+  "QuestID": 25721,
+  "Version": 1,
+  "FactionGroup": 2,
+  "UpdatedOn": "2014-12-23T17:31:24.4598958Z",
+  "Comment": "",
+  "CreatedBy": null,
+  "QuestStart": {
+    "ObjectName": "Forba Fliesmeißel",
+    "EntryId": 41086,
+    "AdditionalEntryIds": null,
+    "ContinentId": 0,
+    "ZoneId": 11,
+    "Position": "-4125.83 -2767.82 17.93018",
+    "TurnInType": 0,
+    "IsIndoors": true,
+    "MyFaction": 0
+  },
+  "ActionOrder": 1,
+  "Actions": [
+    {
+      "$type": "KillMobsTemplate",
+      "TargetObjects": [
+        {
+          "Hotspot": {
+            "Position": "-4140.193 -2861.758 12.60233",
+            "GroundPosition": "0 0 0",
+            "ContinentId": 0
+          },
+          "Name": "Flutelementar",
+          "EntryId": 41132
+        }
+      ],
+      "HotspotsX": [
+        {
+          "Position": "-4103.01 -2901.621 5.749676",
+          "GroundPosition": "0 0 0",
+          "InWater": true,
+          "ContinentId": 0
+        }
+      ],
+      "Blackspots": [],
+      "ForceLoot": false,
+      "ForcePullMobs": false,
+      "GameObjectiveIndex": 1,
+      "RunTime": 5.0
+    }
+  ]
+}

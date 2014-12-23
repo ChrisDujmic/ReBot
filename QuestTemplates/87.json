@@ -1,0 +1,60 @@
+{
+  "QuestID": 87,
+  "Version": 2,
+  "FactionGroup": 0,
+  "CreatedOn": "2014-09-03T11:50:22.4773528Z",
+  "UpdatedOn": "2014-12-20T15:43:08.4574529Z",
+  "Comment": "",
+  "CreatedBy": null,
+  "RecommendedLevel": 8,
+  "QuestStart": {
+    "ObjectName": "Billy Maclure",
+    "EntryId": 247,
+    "AdditionalEntryIds": null,
+    "ContinentId": 0,
+    "ZoneId": 0,
+    "Position": "-9923.681 38.38715 32.41259",
+    "TurnInType": 0,
+    "MyFaction": 0
+  },
+  "QuestEnd": {
+    "ObjectName": "Tantchen Bernice Steinfeld",
+    "EntryId": 246,
+    "AdditionalEntryIds": null,
+    "ContinentId": 0,
+    "ZoneId": 0,
+    "Position": "-9889.681 338.4665 36.49811",
+    "TurnInType": 0,
+    "MyFaction": 0
+  },
+  "ActionOrder": 1,
+  "Actions": [
+    {
+      "$type": "KillMobsTemplate",
+      "TargetObjects": [
+        {
+          "Hotspot": {
+            "Position": "-9805.785 143.6708 52.65238",
+            "GroundPosition": "0 0 0",
+            "IsGroundPosition": false,
+            "ContinentId": 0
+          },
+          "Name": "Goldtooth",
+          "EntryId": 327
+        }
+      ],
+      "HotspotsX": [
+        {
+          "Position": "-9806.742 120.9001 47.50063",
+          "GroundPosition": "0 0 0",
+          "IsGroundPosition": false
+        }
+      ],
+      "Blackspots": [],
+      "ForceLoot": true,
+      "ForcePullMobs": false,
+      "GameObjectiveIndex": 1,
+      "RunTime": 5.0
+    }
+  ]
+}

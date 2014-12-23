@@ -1,0 +1,54 @@
+{
+  "QuestID": 25820,
+  "Version": 2,
+  "FactionGroup": 2,
+  "CreatedOn": "2014-12-23T19:26:22.5762782Z",
+  "UpdatedOn": "2014-12-23T19:26:37.7691472Z",
+  "Comment": "",
+  "CreatedBy": null,
+  "RecommendedLevel": 22,
+  "Frequency": 1,
+  "QuestStart": {
+    "ObjectName": "Derina Rumdnul",
+    "EntryId": 1484,
+    "AdditionalEntryIds": null,
+    "ContinentId": 0,
+    "ZoneId": 11,
+    "Position": "-3743.811 -879.8472 0.2898639",
+    "TurnInType": 0,
+    "IsIndoors": true,
+    "MyFaction": 0
+  },
+  "ActionOrder": 1,
+  "Actions": [
+    {
+      "$type": "KillMobsTemplate",
+      "TargetObjects": [
+        {
+          "Hotspot": {
+            "Position": "-3638.88 -928.4113 -5.45023",
+            "GroundPosition": "0 0 0",
+            "IsGroundPosition": false,
+            "InWater": true,
+            "ContinentId": 0
+          },
+          "Name": "Hafenschredderflosse",
+          "EntryId": 41293
+        }
+      ],
+      "HotspotsX": [
+        {
+          "Position": "-3600.432 -916.197 -3.039059",
+          "GroundPosition": "0 0 0",
+          "InWater": true,
+          "ContinentId": 0
+        }
+      ],
+      "Blackspots": [],
+      "ForceLoot": false,
+      "ForcePullMobs": false,
+      "GameObjectiveIndex": 1,
+      "RunTime": 5.0
+    }
+  ]
+}

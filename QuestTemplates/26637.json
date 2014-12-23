@@ -1,0 +1,62 @@
+{
+  "QuestID": 26637,
+  "Version": 1,
+  "FactionGroup": 2,
+  "UpdatedOn": "2014-12-22T21:07:13.772562Z",
+  "Comment": "",
+  "CreatedBy": null,
+  "QuestStart": {
+    "ObjectName": "Messner",
+    "EntryId": 43459,
+    "AdditionalEntryIds": null,
+    "ContinentId": 0,
+    "ZoneId": 44,
+    "Position": "-9465.68 -2826.04 65.28091",
+    "TurnInType": 0,
+    "IsIndoors": true,
+    "MyFaction": 0
+  },
+  "ActionOrder": 1,
+  "Actions": [
+    {
+      "$type": "CollectObjectsTemplate",
+      "TargetObjects": [
+        {
+          "Hotspot": {
+            "Position": "-9505.344 -2723.865 30.52201",
+            "GroundPosition": "0 0 0",
+            "ContinentId": 0
+          },
+          "Name": "Matschwirbler",
+          "EntryId": 43532
+        }
+      ],
+      "HotspotsX": [
+        {
+          "Position": "-9488.221 -2770.757 48.92492",
+          "GroundPosition": "0 0 0",
+          "InWater": true,
+          "ContinentId": 0
+        },
+        {
+          "Position": "-9513.026 -2655.342 54.56523",
+          "GroundPosition": "0 0 0",
+          "InWater": true,
+          "ContinentId": 0
+        },
+        {
+          "Position": "-9446.18 -2664.95 54.637",
+          "GroundPosition": "0 0 0",
+          "InWater": true,
+          "ContinentId": 0
+        }
+      ],
+      "Blackspots": [],
+      "IsLoot": true,
+      "OpeningCast": false,
+      "NoMovement": false,
+      "GameObjectiveIndex": 1,
+      "RunTime": 5.0
+    }
+  ]
+}

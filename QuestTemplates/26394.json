@@ -1,0 +1,62 @@
+{
+  "QuestID": 26394,
+  "Version": 6,
+  "FactionGroup": 0,
+  "CreatedOn": "2014-09-01T12:14:24.9013275Z",
+  "UpdatedOn": "2014-12-20T14:15:13.3407335Z",
+  "Comment": "",
+  "CreatedBy": null,
+  "RecommendedLevel": 7,
+  "QuestStart": {
+    "ObjectName": "Bartlett the Brave",
+    "EntryId": 42983,
+    "AdditionalEntryIds": null,
+    "ContinentId": 0,
+    "ZoneId": 12,
+    "Position": "-9435.714 87.61111 57.12767",
+    "TurnInType": 0,
+    "MyFaction": 0
+  },
+  "QuestEnd": {
+    "ObjectName": "Osric Strang",
+    "EntryId": 1323,
+    "AdditionalEntryIds": null,
+    "ContinentId": 0,
+    "ZoneId": 1519,
+    "Position": "-8702.275 382.0517 103.7259",
+    "TurnInType": 0,
+    "IsIndoors": true,
+    "MyFaction": 0
+  },
+  "ActionOrder": 1,
+  "Actions": [
+    {
+      "$type": "UseTaxiTemplate",
+      "Hotspots": [
+        {
+          "Position": "-9435.623 85.83633 56.82535",
+          "GroundPosition": "0 0 0",
+          "IsGroundPosition": false,
+          "ContinentId": 0
+        }
+      ],
+      "Target": {
+        "Hotspot": {
+          "Position": "-9435.714 87.61111 57.12768",
+          "GroundPosition": "0 0 0",
+          "IsGroundPosition": false,
+          "ContinentId": 0
+        },
+        "Name": "Bartlett the Brave",
+        "EntryId": 42983
+      },
+      "TaxiTarget": {
+        "Item1": "Stormwind, Elwynn",
+        "Item2": "0.40903970599175",
+        "Item3": "0.26697710156441"
+      },
+      "GameObjectiveIndex": 1,
+      "RunTime": 5.0
+    }
+  ]
+}

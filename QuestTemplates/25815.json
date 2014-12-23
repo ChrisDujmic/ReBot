@@ -1,0 +1,50 @@
+{
+  "QuestID": 25815,
+  "Version": 1,
+  "FactionGroup": 2,
+  "UpdatedOn": "2014-12-23T19:13:12.8671618Z",
+  "Comment": "",
+  "CreatedBy": null,
+  "QuestStart": {
+    "ObjectName": "Erster Maat Fitzsimmons",
+    "EntryId": 1239,
+    "AdditionalEntryIds": null,
+    "ContinentId": 0,
+    "ZoneId": 11,
+    "Position": "-3794.61 -842.481 0.8879207",
+    "TurnInType": 0,
+    "MyFaction": 2
+  },
+  "ActionOrder": 1,
+  "Actions": [
+    {
+      "$type": "CollectObjectsTemplate",
+      "TargetObjects": [
+        {
+          "Hotspot": {
+            "Position": "-3846.27 -825.721 -6.51973",
+            "GroundPosition": "0 0 0",
+            "IsIndoors": true,
+            "ContinentId": 0
+          },
+          "Name": "Fitzsimmons Met",
+          "EntryId": 203247
+        }
+      ],
+      "HotspotsX": [
+        {
+          "Position": "-3846.565 -827.3472 -6.51928",
+          "GroundPosition": "0 0 0",
+          "IsIndoors": true,
+          "ContinentId": 0
+        }
+      ],
+      "Blackspots": [],
+      "IsLoot": true,
+      "OpeningCast": true,
+      "NoMovement": false,
+      "GameObjectiveIndex": 1,
+      "RunTime": 5.0
+    }
+  ]
+}

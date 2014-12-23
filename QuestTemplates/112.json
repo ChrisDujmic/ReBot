@@ -1,0 +1,43 @@
+{
+  "QuestID": 112,
+  "Version": 1,
+  "FactionGroup": 0,
+  "CreatedOn": "2014-12-12T11:23:42.8900445Z",
+  "UpdatedOn": "2014-12-20T15:51:56.4406518Z",
+  "Comment": "",
+  "CreatedBy": null,
+  "QuestStart": {
+    "ObjectName": "William Pestle",
+    "EntryId": 253,
+    "AdditionalEntryIds": null,
+    "ContinentId": 0,
+    "ZoneId": 0,
+    "Position": "-9460.302 31.93891 56.96619",
+    "TurnInType": 0,
+    "MyFaction": 0
+  },
+  "ActionOrder": 1,
+  "Actions": [
+    {
+      "$type": "KillMobsTemplate",
+      "TargetObjects": [
+        {
+          "Name": "Murloc",
+          "EntryId": 285
+        }
+      ],
+      "HotspotsX": [
+        {
+          "Position": "-9473.209 -176.6005 59.57144",
+          "GroundPosition": "0 0 0",
+          "IsGroundPosition": false
+        }
+      ],
+      "Blackspots": [],
+      "ForceLoot": true,
+      "ForcePullMobs": false,
+      "GameObjectiveIndex": 1,
+      "RunTime": 5.0
+    }
+  ]
+}

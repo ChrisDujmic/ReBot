@@ -1,0 +1,34 @@
+{
+  "QuestID": 25777,
+  "Version": 4,
+  "FactionGroup": 2,
+  "CreatedOn": "2014-12-23T18:48:10.3905387Z",
+  "UpdatedOn": "2014-12-23T18:56:15.0151622Z",
+  "Comment": "",
+  "CreatedBy": null,
+  "RecommendedLevel": 21,
+  "Frequency": 1,
+  "QuestStart": {
+    "ObjectName": "Forba Fliesmeißel",
+    "EntryId": 41086,
+    "AdditionalEntryIds": null,
+    "ContinentId": 0,
+    "ZoneId": 11,
+    "Position": "-4125.83 -2767.82 17.93056",
+    "TurnInType": 0,
+    "IsIndoors": true,
+    "MyFaction": 0
+  },
+  "QuestEnd": {
+    "ObjectName": "Hauptmann Starkfaust",
+    "EntryId": 2104,
+    "AdditionalEntryIds": null,
+    "ContinentId": 0,
+    "ZoneId": 11,
+    "Position": "-3683.297 -824.5052 1.317329",
+    "TurnInType": 0,
+    "MyFaction": 2
+  },
+  "ActionOrder": 2,
+  "Actions": []
+}

@@ -1,0 +1,32 @@
+{
+  "QuestID": 26607,
+  "Version": 1,
+  "FactionGroup": 2,
+  "UpdatedOn": "2014-12-22T19:55:01.9889684Z",
+  "Comment": "",
+  "CreatedBy": null,
+  "QuestStart": {
+    "ObjectName": "Oberst Trottmann",
+    "EntryId": 43221,
+    "AdditionalEntryIds": null,
+    "ContinentId": 0,
+    "ZoneId": 44,
+    "Position": "-9212.22 -2215.35 66.18016",
+    "TurnInType": 0,
+    "IsIndoors": true,
+    "MyFaction": 0
+  },
+  "QuestEnd": {
+    "ObjectName": "John J. Keeshan",
+    "EntryId": 43184,
+    "AdditionalEntryIds": null,
+    "ContinentId": 0,
+    "ZoneId": 44,
+    "Position": "-9201.46 -2155.63 57.18724",
+    "TurnInType": 0,
+    "IsIndoors": true,
+    "MyFaction": 2
+  },
+  "ActionOrder": 1,
+  "Actions": []
+}

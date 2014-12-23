@@ -1,0 +1,32 @@
+{
+  "QuestID": 25802,
+  "Version": 1,
+  "FactionGroup": 2,
+  "UpdatedOn": "2014-12-23T19:45:28.6546013Z",
+  "Comment": "",
+  "CreatedBy": null,
+  "QuestStart": {
+    "ObjectName": "Karl Boran",
+    "EntryId": 41297,
+    "AdditionalEntryIds": null,
+    "ContinentId": 0,
+    "ZoneId": 11,
+    "Position": "-3740.495 -848.1146 0.5934278",
+    "TurnInType": 0,
+    "IsIndoors": true,
+    "MyFaction": 0
+  },
+  "QuestEnd": {
+    "ObjectName": "Beschädigte Kiste",
+    "EntryId": 261,
+    "AdditionalEntryIds": [],
+    "ContinentId": 0,
+    "ZoneId": 11,
+    "Position": "-3291.902 -949.3058 9.60315",
+    "TurnInType": 1,
+    "IsIndoors": true,
+    "MyFaction": 2
+  },
+  "ActionOrder": 1,
+  "Actions": []
+}

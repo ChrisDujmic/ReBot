@@ -1,0 +1,48 @@
+{
+  "QuestID": 25856,
+  "Version": 1,
+  "FactionGroup": 2,
+  "UpdatedOn": "2014-12-23T20:48:56.0332443Z",
+  "Comment": "",
+  "CreatedBy": null,
+  "QuestStart": {
+    "ObjectName": "James Halloran",
+    "EntryId": 41433,
+    "AdditionalEntryIds": null,
+    "ContinentId": 0,
+    "ZoneId": 11,
+    "Position": "-2884.736 -1496.576 10.75003",
+    "TurnInType": 0,
+    "IsIndoors": true,
+    "MyFaction": 0
+  },
+  "ActionOrder": 1,
+  "Actions": [
+    {
+      "$type": "KillMobsTemplate",
+      "TargetObjects": [
+        {
+          "Hotspot": {
+            "Position": "-2853.267 -1583.64 9.576097",
+            "GroundPosition": "0 0 0",
+            "ContinentId": 0
+          },
+          "Name": "Sumpflandkrokilisk",
+          "EntryId": 41419
+        }
+      ],
+      "HotspotsX": [
+        {
+          "Position": "-2856.23 -1518.185 9.047936",
+          "GroundPosition": "0 0 0",
+          "ContinentId": 0
+        }
+      ],
+      "Blackspots": [],
+      "ForceLoot": true,
+      "ForcePullMobs": false,
+      "GameObjectiveIndex": 1,
+      "RunTime": 5.0
+    }
+  ]
+}

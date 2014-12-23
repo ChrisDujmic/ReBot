@@ -1,0 +1,32 @@
+{
+  "QuestID": 111,
+  "Version": 1,
+  "FactionGroup": 0,
+  "CreatedOn": "2014-12-12T11:23:42.8810439Z",
+  "UpdatedOn": "2014-12-20T15:32:59.6456309Z",
+  "Comment": "",
+  "CreatedBy": null,
+  "QuestStart": {
+    "ObjectName": "Tommy Joe Stonefield",
+    "EntryId": 252,
+    "AdditionalEntryIds": null,
+    "ContinentId": 0,
+    "ZoneId": 12,
+    "Position": "-9930.049 499.7344 32.33894",
+    "TurnInType": 0,
+    "MyFaction": 0
+  },
+  "QuestEnd": {
+    "ObjectName": "Gramma Stonefield",
+    "EntryId": 248,
+    "AdditionalEntryIds": null,
+    "ContinentId": 0,
+    "ZoneId": 12,
+    "Position": "-9880.63 322.6189 37.74094",
+    "TurnInType": 0,
+    "IsIndoors": true,
+    "MyFaction": 0
+  },
+  "ActionOrder": 1,
+  "Actions": []
+}

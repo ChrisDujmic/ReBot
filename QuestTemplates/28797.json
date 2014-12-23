@@ -1,0 +1,70 @@
+{
+  "QuestID": 28797,
+  "Version": 1,
+  "FactionGroup": 0,
+  "CreatedOn": "2014-08-10T12:11:26.6247637Z",
+  "UpdatedOn": "2014-12-20T13:30:47.2612425Z",
+  "Comment": "",
+  "CreatedBy": null,
+  "RecommendedLevel": 3,
+  "QuestStart": {
+    "ObjectName": "Sergeant Willem",
+    "EntryId": 823,
+    "AdditionalEntryIds": null,
+    "ContinentId": 0,
+    "ZoneId": 6170,
+    "Position": "-8827.837 -158.6233 79.85905",
+    "TurnInType": 0,
+    "MyFaction": 0
+  },
+  "ActionOrder": 1,
+  "Actions": [
+    {
+      "$type": "KillMobsTemplate",
+      "TargetObjects": [
+        {
+          "Hotspot": {
+            "Position": "-8775.181 -127.6818 83.17517",
+            "GroundPosition": "0 0 0",
+            "IsGroundPosition": false,
+            "ContinentId": 0
+          },
+          "Name": "Goblin Assassin",
+          "EntryId": 50039
+        }
+      ],
+      "HotspotsX": [
+        {
+          "Position": "-8752.606 -170.4247 85.15319",
+          "GroundPosition": "0 0 0",
+          "IsGroundPosition": false
+        },
+        {
+          "Position": "-8747.478 -135.7376 83.6188",
+          "GroundPosition": "0 0 0",
+          "IsGroundPosition": false
+        },
+        {
+          "Position": "-8754.077 -108.661 86.24194",
+          "GroundPosition": "0 0 0",
+          "IsGroundPosition": false
+        },
+        {
+          "Position": "-8780.156 -103.67 84.35039",
+          "GroundPosition": "0 0 0",
+          "IsGroundPosition": false
+        },
+        {
+          "Position": "-8804.121 -124.3666 83.55563",
+          "GroundPosition": "0 0 0",
+          "IsGroundPosition": false
+        }
+      ],
+      "Blackspots": [],
+      "ForceLoot": false,
+      "ForcePullMobs": false,
+      "GameObjectiveIndex": 1,
+      "RunTime": 5.0
+    }
+  ]
+}

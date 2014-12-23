@@ -1,0 +1,32 @@
+{
+  "QuestID": 26393,
+  "Version": 1,
+  "FactionGroup": 0,
+  "CreatedOn": "2014-12-12T11:23:49.1314014Z",
+  "UpdatedOn": "2014-12-20T14:13:04.8883864Z",
+  "Comment": "",
+  "CreatedBy": null,
+  "QuestStart": {
+    "ObjectName": "Smith Argus",
+    "EntryId": 514,
+    "AdditionalEntryIds": null,
+    "ContinentId": 0,
+    "ZoneId": 12,
+    "Position": "-9456.65 87.85526 58.34371",
+    "TurnInType": 0,
+    "IsIndoors": true,
+    "MyFaction": 0
+  },
+  "QuestEnd": {
+    "ObjectName": "Bartlett the Brave",
+    "EntryId": 42983,
+    "AdditionalEntryIds": null,
+    "ContinentId": 0,
+    "ZoneId": 12,
+    "Position": "-9435.714 87.61111 57.12767",
+    "TurnInType": 0,
+    "MyFaction": 0
+  },
+  "ActionOrder": 1,
+  "Actions": []
+}

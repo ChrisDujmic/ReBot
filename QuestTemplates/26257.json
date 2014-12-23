@@ -1,0 +1,118 @@
+{
+  "QuestID": 26257,
+  "Version": 6,
+  "FactionGroup": 0,
+  "CreatedOn": "2014-12-12T11:23:49.0373961Z",
+  "UpdatedOn": "2014-12-21T09:31:41.0874856Z",
+  "Comment": "",
+  "CreatedBy": null,
+  "RecommendedLevel": 13,
+  "Frequency": 1,
+  "QuestStart": {
+    "ObjectName": "Bauer Saldean",
+    "EntryId": 233,
+    "AdditionalEntryIds": null,
+    "ContinentId": 0,
+    "ZoneId": 40,
+    "Position": "-10128.7 1055.21 36.25039",
+    "TurnInType": 0,
+    "MyFaction": 2
+  },
+  "ActionOrder": 1,
+  "Actions": [
+    {
+      "$type": "UseItemTemplate",
+      "UseMethod": 2,
+      "OverrideCooldown": 0.0,
+      "OverrideCastTime": 0.0,
+      "StayMounted": false,
+      "MinCastRange": 4.5,
+      "DontFilterDeadUnits": false,
+      "UseCount": 1,
+      "TargetUnits": [
+        {
+          "Name": "Overloaded Harvest Golem",
+          "EntryId": 42381
+        }
+      ],
+      "HotspotsX": [
+        {
+          "Position": "-10156.89 1278.652 38.56479",
+          "GroundPosition": "0 0 0",
+          "IsGroundPosition": false,
+          "ContinentId": 0
+        },
+        {
+          "Position": "-10156.03 1312.22 38.48083",
+          "GroundPosition": "0 0 0",
+          "IsGroundPosition": false,
+          "ContinentId": 0
+        },
+        {
+          "Position": "-10174.68 1332.953 37.97663",
+          "GroundPosition": "0 0 0",
+          "IsGroundPosition": false,
+          "ContinentId": 0
+        }
+      ],
+      "Blackspots": [],
+      "Item": [
+        {
+          "Name": "Herz eines Erntebehüters",
+          "EntryId": 57954
+        }
+      ],
+      "BanTime": 120.0,
+      "BanMobCombatAfterUse": false,
+      "GameObjectiveIndex": 1,
+      "RunTime": 5.0
+    },
+    {
+      "$type": "KillMobsTemplate",
+      "TargetObjects": [
+        {
+          "Hotspot": {
+            "Position": "-10218.05 1385.091 40.28294",
+            "GroundPosition": "0 0 0",
+            "IsGroundPosition": false,
+            "IsOnTransport": true,
+            "ContinentId": 0
+          },
+          "Name": "Aufgeladener Ernteschnitter",
+          "EntryId": 42342
+        }
+      ],
+      "HotspotsX": [
+        {
+          "Position": "-10200.22 1374.663 38.04638",
+          "GroundPosition": "0 0 0",
+          "IsGroundPosition": false
+        }
+      ],
+      "Blackspots": [],
+      "ActionBar": {
+        "ActionBarActions": [
+          {
+            "Slot": 1,
+            "CastOnSelf": true,
+            "GravitySqr": 10.0,
+            "ProjectileVelocity": 10.0,
+            "Cooldown": 5.0
+          },
+          {
+            "Priority": true,
+            "Slot": 2,
+            "CastOnSelf": true,
+            "GravitySqr": 10.0,
+            "ProjectileVelocity": 10.0,
+            "Cooldown": 8.0
+          }
+        ]
+      },
+      "ForceLoot": false,
+      "ForcePullMobs": true,
+      "GameObjectiveIndex": 2,
+      "RunTime": 5.0
+    }
+  ]
+}

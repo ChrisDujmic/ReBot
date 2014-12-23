@@ -1,0 +1,85 @@
+{
+  "QuestID": 25817,
+  "Version": 2,
+  "FactionGroup": 2,
+  "CreatedOn": "2014-12-23T20:02:37.4203167Z",
+  "UpdatedOn": "2014-12-23T20:38:09.5982703Z",
+  "Comment": "",
+  "CreatedBy": null,
+  "RecommendedLevel": 22,
+  "Frequency": 1,
+  "QuestStart": {
+    "ObjectName": "Erster Maat Snellig",
+    "EntryId": 41307,
+    "AdditionalEntryIds": null,
+    "ContinentId": 0,
+    "ZoneId": 11,
+    "Position": "-2957.703 -1019.526 10.37228",
+    "TurnInType": 0,
+    "IsIndoors": true,
+    "MyFaction": 0
+  },
+  "ActionOrder": 1,
+  "Actions": [
+    {
+      "$type": "KillMobsTemplate",
+      "TargetObjects": [
+        {
+          "Hotspot": {
+            "Position": "-2910.944 -986.9654 -12.78617",
+            "GroundPosition": "0 0 0",
+            "IsGroundPosition": false,
+            "InWater": true,
+            "ContinentId": 0
+          },
+          "Name": "Verfluchter Seemann",
+          "EntryId": 41428
+        }
+      ],
+      "HotspotsX": [
+        {
+          "Position": "-2893.241 -1005.686 -2.848575",
+          "GroundPosition": "0 0 0",
+          "IsGroundPosition": false,
+          "InWater": true,
+          "ContinentId": 0
+        }
+      ],
+      "Blackspots": [],
+      "ForceLoot": false,
+      "ForcePullMobs": false,
+      "GameObjectiveIndex": 1,
+      "RunTime": 5.0
+    },
+    {
+      "$type": "KillMobsTemplate",
+      "TargetObjects": [
+        {
+          "Hotspot": {
+            "Position": "-2816.493 -973.1904 -9.501963",
+            "GroundPosition": "0 0 0",
+            "IsGroundPosition": false,
+            "InWater": true,
+            "ContinentId": 0
+          },
+          "Name": "Verfluchter Marinesoldat",
+          "EntryId": 41427
+        }
+      ],
+      "HotspotsX": [
+        {
+          "Position": "-2893.241 -1005.686 -2.848575",
+          "GroundPosition": "0 0 0",
+          "IsGroundPosition": false,
+          "InWater": true,
+          "ContinentId": 0
+        }
+      ],
+      "Blackspots": [],
+      "ForceLoot": false,
+      "ForcePullMobs": false,
+      "GameObjectiveIndex": 2,
+      "RunTime": 5.0
+    }
+  ]
+}

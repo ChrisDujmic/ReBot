@@ -1,0 +1,32 @@
+{
+  "QuestID": 25804,
+  "Version": 1,
+  "FactionGroup": 2,
+  "UpdatedOn": "2014-12-23T19:53:40.5856534Z",
+  "Comment": "",
+  "CreatedBy": null,
+  "QuestStart": {
+    "ObjectName": "Versiegeltes Fass",
+    "EntryId": 142151,
+    "AdditionalEntryIds": null,
+    "ContinentId": 0,
+    "ZoneId": 11,
+    "Position": "-3201.398 -952.171 8.449992",
+    "TurnInType": 1,
+    "IsIndoors": true,
+    "MyFaction": 0
+  },
+  "QuestEnd": {
+    "ObjectName": "Halb vergrabenes Fass",
+    "EntryId": 259,
+    "AdditionalEntryIds": [],
+    "ContinentId": 0,
+    "ZoneId": 11,
+    "Position": "-3110.767 -967.4747 8.590767",
+    "TurnInType": 1,
+    "IsIndoors": true,
+    "MyFaction": 2
+  },
+  "ActionOrder": 1,
+  "Actions": []
+}

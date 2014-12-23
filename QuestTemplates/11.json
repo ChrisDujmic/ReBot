@@ -1,0 +1,91 @@
+{
+  "QuestID": 11,
+  "Version": 2,
+  "FactionGroup": 0,
+  "CreatedOn": "2014-09-03T16:21:08.4475691Z",
+  "UpdatedOn": "2014-12-20T18:17:42.6109042Z",
+  "Comment": "",
+  "CreatedBy": null,
+  "RecommendedLevel": 10,
+  "Frequency": 1,
+  "QuestStart": {
+    "ObjectName": "Deputy Rainer",
+    "EntryId": 963,
+    "AdditionalEntryIds": null,
+    "ContinentId": 0,
+    "ZoneId": 12,
+    "Position": "-9662.753 694.3211 36.85234",
+    "TurnInType": 0,
+    "MyFaction": 0
+  },
+  "ActionOrder": 1,
+  "Actions": [
+    {
+      "$type": "KillMobsTemplate",
+      "TargetObjects": [
+        {
+          "Hotspot": {
+            "Position": "-9820.973 622.9366 41.29534",
+            "GroundPosition": "0 0 0",
+            "IsGroundPosition": false,
+            "ContinentId": 0
+          },
+          "Name": "Riverpaw Outrunner",
+          "EntryId": 478
+        }
+      ],
+      "HotspotsX": [
+        {
+          "Position": "-9800.522 634.2605 38.72871",
+          "GroundPosition": "0 0 0",
+          "IsGroundPosition": false
+        },
+        {
+          "Position": "-9860.403 615.3476 39.89149",
+          "GroundPosition": "0 0 0",
+          "IsGroundPosition": false
+        },
+        {
+          "Position": "-9876.894 583.0514 37.56929",
+          "GroundPosition": "0 0 0",
+          "IsGroundPosition": false
+        },
+        {
+          "Position": "-9902.63 561.4585 37.60878",
+          "GroundPosition": "0 0 0",
+          "IsGroundPosition": false
+        },
+        {
+          "Position": "-9944.012 544.2109 38.23111",
+          "GroundPosition": "0 0 0",
+          "IsGroundPosition": false
+        },
+        {
+          "Position": "-10025.93 548.856 37.55643",
+          "GroundPosition": "0 0 0",
+          "IsGroundPosition": false
+        },
+        {
+          "Position": "-10017.49 590.2841 37.6102",
+          "GroundPosition": "0 0 0",
+          "IsGroundPosition": false
+        },
+        {
+          "Position": "-9975.042 621.4567 38.87155",
+          "GroundPosition": "0 0 0",
+          "IsGroundPosition": false
+        },
+        {
+          "Position": "-9916.556 648.2684 36.3701",
+          "GroundPosition": "0 0 0",
+          "IsGroundPosition": false
+        }
+      ],
+      "Blackspots": [],
+      "ForceLoot": true,
+      "ForcePullMobs": false,
+      "GameObjectiveIndex": 1,
+      "RunTime": 5.0
+    }
+  ]
+}

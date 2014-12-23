@@ -1,0 +1,51 @@
+{
+  "QuestID": 25865,
+  "Version": 2,
+  "FactionGroup": 2,
+  "CreatedOn": "2014-12-23T21:11:26.3524781Z",
+  "UpdatedOn": "2014-12-23T21:11:47.0076595Z",
+  "Comment": "",
+  "CreatedBy": null,
+  "RecommendedLevel": 23,
+  "Frequency": 1,
+  "QuestStart": {
+    "ObjectName": "Shilah Fliesmeißel",
+    "EntryId": 41415,
+    "AdditionalEntryIds": null,
+    "ContinentId": 0,
+    "ZoneId": 11,
+    "Position": "-2866.884 -1503.222 10.2015",
+    "TurnInType": 0,
+    "IsIndoors": true,
+    "MyFaction": 0
+  },
+  "ActionOrder": 1,
+  "Actions": [
+    {
+      "$type": "KillMobsTemplate",
+      "TargetObjects": [
+        {
+          "Hotspot": {
+            "Position": "-2896.514 -1804.431 10.46221",
+            "GroundPosition": "0 0 0",
+            "ContinentId": 0
+          },
+          "Name": "Mystiker der Moosfelle",
+          "EntryId": 41391
+        }
+      ],
+      "HotspotsX": [
+        {
+          "Position": "-2939.791 -1724.946 9.604333",
+          "GroundPosition": "0 0 0",
+          "ContinentId": 0
+        }
+      ],
+      "Blackspots": [],
+      "ForceLoot": true,
+      "ForcePullMobs": false,
+      "GameObjectiveIndex": 1,
+      "RunTime": 5.0
+    }
+  ]
+}

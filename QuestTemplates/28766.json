@@ -1,0 +1,57 @@
+{
+  "QuestID": 28766,
+  "Version": 3,
+  "FactionGroup": 0,
+  "CreatedOn": "2014-08-10T12:38:27.7944893Z",
+  "UpdatedOn": "2014-12-20T13:18:33.3422647Z",
+  "Comment": "Human - Warrior - 1",
+  "CreatedBy": null,
+  "RecommendedLevel": 3,
+  "QuestStart": {
+    "ObjectName": "Marschall McBride",
+    "EntryId": 197,
+    "AdditionalEntryIds": null,
+    "ContinentId": 0,
+    "ZoneId": 6170,
+    "Position": "-8913.424 -137.5417 80.80996",
+    "TurnInType": 0,
+    "MyFaction": 2
+  },
+  "ActionOrder": 1,
+  "Actions": [
+    {
+      "$type": "KillMobsTemplate",
+      "TargetObjects": [
+        {
+          "Hotspot": {
+            "Position": "-8869.44 -118.7521 80.83974",
+            "GroundPosition": "0 0 0",
+            "IsGroundPosition": false,
+            "ContinentId": 0
+          },
+          "Name": "Blackrock Battle Worg",
+          "EntryId": 49871
+        }
+      ],
+      "HotspotsX": [
+        {
+          "Position": "-8867.759 -112.6301 80.69308",
+          "GroundPosition": "0 0 0",
+          "IsGroundPosition": false,
+          "ContinentId": 0
+        },
+        {
+          "Position": "-8812.067 -131.8541 82.60957",
+          "GroundPosition": "0 0 0",
+          "IsGroundPosition": false,
+          "ContinentId": 0
+        }
+      ],
+      "Blackspots": [],
+      "ForceLoot": false,
+      "ForcePullMobs": false,
+      "GameObjectiveIndex": 1,
+      "RunTime": 5.0
+    }
+  ]
+}

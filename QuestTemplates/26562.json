@@ -1,0 +1,66 @@
+{
+  "QuestID": 26562,
+  "Version": 3,
+  "FactionGroup": 2,
+  "CreatedOn": "2014-12-22T19:39:45.1805544Z",
+  "UpdatedOn": "2014-12-22T19:45:34.6235692Z",
+  "Comment": "",
+  "CreatedBy": null,
+  "RecommendedLevel": 17,
+  "Frequency": 1,
+  "QuestStart": {
+    "ObjectName": "Krakauer",
+    "EntryId": 43303,
+    "AdditionalEntryIds": null,
+    "ContinentId": 0,
+    "ZoneId": 44,
+    "Position": "-8690.257 -2147.486 159.0266",
+    "TurnInType": 0,
+    "IsIndoors": true,
+    "MyFaction": 0
+  },
+  "QuestEnd": {
+    "ObjectName": "Danforth",
+    "EntryId": 43275,
+    "AdditionalEntryIds": null,
+    "ContinentId": 0,
+    "ZoneId": 44,
+    "Position": "-8805.051 -2206.285 130.9454",
+    "TurnInType": 0,
+    "IsIndoors": true,
+    "MyFaction": 2
+  },
+  "ActionOrder": 1,
+  "Actions": [
+    {
+      "$type": "KillMobsTemplate",
+      "TargetObjects": [
+        {
+          "Hotspot": {
+            "Position": "-8824.635 -2187.968 138.4197",
+            "GroundPosition": "0 0 0",
+            "IsGroundPosition": false,
+            "IsIndoors": true,
+            "ContinentId": 0
+          },
+          "Name": "Oberanführer Barbarius",
+          "EntryId": 43369
+        }
+      ],
+      "HotspotsX": [
+        {
+          "Position": "-8825.803 -2192.507 138.7116",
+          "GroundPosition": "0 0 0",
+          "IsGroundPosition": false,
+          "IsIndoors": true,
+          "ContinentId": 0
+        }
+      ],
+      "Blackspots": [],
+      "ForceLoot": true,
+      "ForcePullMobs": false,
+      "GameObjectiveIndex": 1,
+      "RunTime": 5.0
+    }
+  ]
+}

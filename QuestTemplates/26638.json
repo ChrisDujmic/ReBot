@@ -1,0 +1,59 @@
+{
+  "QuestID": 26638,
+  "Version": 2,
+  "FactionGroup": 2,
+  "CreatedOn": "2014-12-22T21:22:10.1866699Z",
+  "UpdatedOn": "2014-12-22T21:22:14.821935Z",
+  "Comment": "",
+  "CreatedBy": null,
+  "RecommendedLevel": 18,
+  "Frequency": 1,
+  "QuestStart": {
+    "ObjectName": "Danforth",
+    "EntryId": 43462,
+    "AdditionalEntryIds": null,
+    "ContinentId": 0,
+    "ZoneId": 44,
+    "Position": "-9465.97 -2828.57 65.27937",
+    "TurnInType": 0,
+    "IsIndoors": true,
+    "MyFaction": 0
+  },
+  "ActionOrder": 1,
+  "Actions": [
+    {
+      "$type": "KillMobsTemplate",
+      "TargetObjects": [
+        {
+          "Hotspot": {
+            "Position": "-9642.513 -2662.209 58.80467",
+            "GroundPosition": "0 0 0",
+            "IsGroundPosition": false,
+            "ContinentId": 0
+          },
+          "Name": "Jäger des Schwarzfels",
+          "EntryId": 4462
+        }
+      ],
+      "HotspotsX": [
+        {
+          "Position": "-9642.653 -2659.934 58.51659",
+          "GroundPosition": "0 0 0",
+          "IsGroundPosition": false,
+          "ContinentId": 0
+        },
+        {
+          "Position": "-9647.584 -2733.843 59.16519",
+          "GroundPosition": "0 0 0",
+          "IsGroundPosition": false,
+          "ContinentId": 0
+        }
+      ],
+      "Blackspots": [],
+      "ForceLoot": true,
+      "ForcePullMobs": false,
+      "GameObjectiveIndex": 1,
+      "RunTime": 5.0
+    }
+  ]
+}

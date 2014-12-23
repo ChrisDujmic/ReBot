@@ -1,0 +1,54 @@
+{
+  "QuestID": 25854,
+  "Version": 1,
+  "FactionGroup": 2,
+  "UpdatedOn": "2014-12-23T20:52:36.5288559Z",
+  "Comment": "",
+  "CreatedBy": null,
+  "QuestStart": {
+    "ObjectName": "Fradd Schnellschalt",
+    "EntryId": 41435,
+    "AdditionalEntryIds": null,
+    "ContinentId": 0,
+    "ZoneId": 11,
+    "Position": "-2860.983 -1498.894 11.04925",
+    "TurnInType": 0,
+    "IsIndoors": true,
+    "MyFaction": 0
+  },
+  "ActionOrder": 1,
+  "Actions": [
+    {
+      "$type": "CollectObjectsTemplate",
+      "TargetObjects": [
+        {
+          "Hotspot": {
+            "Position": "-2697.651 -1857.823 9.646026",
+            "GroundPosition": "0 0 0",
+            "ContinentId": 0
+          },
+          "Name": "Wackelndes Raptorenei",
+          "EntryId": 203264
+        }
+      ],
+      "HotspotsX": [
+        {
+          "Position": "-2749.43 -1814.956 9.447386",
+          "GroundPosition": "0 0 0",
+          "ContinentId": 0
+        },
+        {
+          "Position": "-2771.563 -1895.879 14.07505",
+          "GroundPosition": "0 0 0",
+          "ContinentId": 0
+        }
+      ],
+      "Blackspots": [],
+      "IsLoot": true,
+      "OpeningCast": true,
+      "NoMovement": false,
+      "GameObjectiveIndex": 1,
+      "RunTime": 5.0
+    }
+  ]
+}

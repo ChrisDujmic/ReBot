@@ -1,0 +1,32 @@
+{
+  "QuestID": 26356,
+  "Version": 1,
+  "FactionGroup": 2,
+  "UpdatedOn": "2014-12-21T15:06:08.0772518Z",
+  "Comment": "",
+  "CreatedBy": null,
+  "QuestStart": {
+    "ObjectName": "Alter Henkelkrug",
+    "EntryId": 34,
+    "AdditionalEntryIds": null,
+    "ContinentId": 0,
+    "ZoneId": 40,
+    "Position": "-9797.295 1594.66 39.69501",
+    "TurnInType": 1,
+    "IsIndoors": true,
+    "MyFaction": 0
+  },
+  "QuestEnd": {
+    "ObjectName": "Verschlossene Truhe",
+    "EntryId": 33,
+    "AdditionalEntryIds": [],
+    "ContinentId": 0,
+    "ZoneId": 40,
+    "Position": "-9794.486 2107.637 12.30399",
+    "TurnInType": 1,
+    "IsIndoors": true,
+    "MyFaction": 2
+  },
+  "ActionOrder": 1,
+  "Actions": []
+}

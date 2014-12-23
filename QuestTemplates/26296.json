@@ -1,0 +1,84 @@
+{
+  "QuestID": 26296,
+  "Version": 3,
+  "FactionGroup": 0,
+  "CreatedOn": "2014-09-06T06:27:08.5776294Z",
+  "UpdatedOn": "2014-12-21T14:37:48.9730686Z",
+  "Comment": "",
+  "CreatedBy": null,
+  "RecommendedLevel": 14,
+  "QuestStart": {
+    "ObjectName": "Item",
+    "EntryId": 0,
+    "AdditionalEntryIds": null,
+    "ContinentId": 0,
+    "ZoneId": 40,
+    "Position": "-10898.13 1542.182 54.6622",
+    "TurnInType": 3,
+    "MyFaction": 0
+  },
+  "QuestEnd": {
+    "ObjectName": "Captain Alpert",
+    "EntryId": 42425,
+    "AdditionalEntryIds": null,
+    "ContinentId": 0,
+    "ZoneId": 40,
+    "Position": "-10896.19 1543.047 54.64862",
+    "TurnInType": 0,
+    "MyFaction": 0
+  },
+  "ActionOrder": 1,
+  "Actions": [
+    {
+      "$type": "KillMobsTemplate",
+      "TargetObjects": [
+        {
+          "Name": "Moonbrook Thug",
+          "EntryId": 42677
+        }
+      ],
+      "HotspotsX": [
+        {
+          "Position": "-11059.59 1526.808 43.17584",
+          "GroundPosition": "0 0 0",
+          "IsGroundPosition": false
+        },
+        {
+          "Position": "-11022.79 1530.146 44.25487",
+          "GroundPosition": "0 0 0",
+          "IsGroundPosition": false
+        },
+        {
+          "Position": "-11006.7 1493.956 43.37851",
+          "GroundPosition": "0 0 0",
+          "IsGroundPosition": false
+        },
+        {
+          "Position": "-10961.47 1490.369 43.74524",
+          "GroundPosition": "0 0 0",
+          "IsGroundPosition": false
+        },
+        {
+          "Position": "-10980.89 1484.923 50.60872",
+          "GroundPosition": "0 0 0",
+          "IsGroundPosition": false
+        },
+        {
+          "Position": "-10969.87 1495.619 50.60872",
+          "GroundPosition": "0 0 0",
+          "IsGroundPosition": false
+        },
+        {
+          "Position": "-11006.47 1494.856 43.40976",
+          "GroundPosition": "0 0 0",
+          "IsGroundPosition": false
+        }
+      ],
+      "Blackspots": [],
+      "ForceLoot": true,
+      "ForcePullMobs": false,
+      "GameObjectiveIndex": 1,
+      "RunTime": 5.0
+    }
+  ]
+}

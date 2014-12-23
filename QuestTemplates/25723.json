@@ -1,0 +1,55 @@
+{
+  "QuestID": 25723,
+  "Version": 4,
+  "FactionGroup": 2,
+  "CreatedOn": "2014-12-23T17:35:26.5906874Z",
+  "UpdatedOn": "2014-12-23T17:38:50.1673106Z",
+  "Comment": "",
+  "CreatedBy": null,
+  "RecommendedLevel": 20,
+  "Frequency": 1,
+  "QuestStart": {
+    "ObjectName": "Dunlor Marmorbart",
+    "EntryId": 41128,
+    "AdditionalEntryIds": null,
+    "ContinentId": 0,
+    "ZoneId": 11,
+    "Position": "-4118.5 -2781.31 17.92278",
+    "TurnInType": 0,
+    "IsIndoors": true,
+    "MyFaction": 0
+  },
+  "ActionOrder": 1,
+  "Actions": [
+    {
+      "$type": "KillMobsTemplate",
+      "TargetObjects": [
+        {
+          "Hotspot": {
+            "Position": "-4190.344 -2960.681 0.01682946",
+            "GroundPosition": "0 0 0",
+            "IsGroundPosition": false,
+            "InWater": true,
+            "ContinentId": 0
+          },
+          "Name": "Verirrter Dreschadon",
+          "EntryId": 41137
+        }
+      ],
+      "HotspotsX": [
+        {
+          "Position": "-4126 -2981.996 0.5142039",
+          "GroundPosition": "0 0 0",
+          "IsGroundPosition": false,
+          "InWater": true,
+          "ContinentId": 0
+        }
+      ],
+      "Blackspots": [],
+      "ForceLoot": true,
+      "ForcePullMobs": true,
+      "GameObjectiveIndex": 1,
+      "RunTime": 5.0
+    }
+  ]
+}

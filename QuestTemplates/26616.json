@@ -1,0 +1,71 @@
+{
+  "QuestID": 26616,
+  "Version": 5,
+  "FactionGroup": 2,
+  "CreatedOn": "2014-12-22T20:46:13.2216997Z",
+  "UpdatedOn": "2014-12-22T20:58:04.1782179Z",
+  "Comment": "",
+  "CreatedBy": null,
+  "RecommendedLevel": 18,
+  "Frequency": 1,
+  "StartEvent": true,
+  "QuestStart": {
+    "ObjectName": "John J. Keeshan",
+    "EntryId": 43184,
+    "AdditionalEntryIds": null,
+    "ContinentId": 0,
+    "ZoneId": 44,
+    "Position": "-9201.46 -2155.63 57.18729",
+    "TurnInType": 0,
+    "IsIndoors": true,
+    "MyFaction": 0
+  },
+  "QuestEnd": {
+    "ObjectName": "John J. Keeshan",
+    "EntryId": 43458,
+    "AdditionalEntryIds": null,
+    "ContinentId": 0,
+    "ZoneId": 44,
+    "Position": "-9463.47 -2829.04 65.27966",
+    "TurnInType": 0,
+    "MyFaction": 2
+  },
+  "ActionOrder": 1,
+  "Actions": [
+    {
+      "$type": "CollectObjectsTemplate",
+      "TargetObjects": [
+        {
+          "Hotspot": {
+            "Position": "-9300.98 -2363.68 55.66713",
+            "GroundPosition": "0 0 0",
+            "IsGroundPosition": false,
+            "ContinentId": 0
+          },
+          "Name": "Keeshans Flussboot",
+          "EntryId": 43443
+        }
+      ],
+      "HotspotsX": [
+        {
+          "Position": "-9297.123 -2362.327 55.69582",
+          "GroundPosition": "0 0 0",
+          "IsGroundPosition": false,
+          "ContinentId": 0
+        }
+      ],
+      "Blackspots": [],
+      "IsLoot": true,
+      "OpeningCast": true,
+      "NoMovement": false,
+      "GameObjectiveIndex": 1,
+      "RunTime": 5.0
+    },
+    {
+      "$type": "WaitTemplate",
+      "TimeSeconds": 90.0,
+      "GameObjectiveIndex": 1,
+      "RunTime": 5.0
+    }
+  ]
+}

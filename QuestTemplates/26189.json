@@ -1,0 +1,126 @@
+{
+  "QuestID": 26189,
+  "Version": 3,
+  "FactionGroup": 2,
+  "CreatedOn": "2014-12-23T22:35:12.4099522Z",
+  "UpdatedOn": "2014-12-23T22:36:41.2540338Z",
+  "Comment": "",
+  "CreatedBy": null,
+  "RecommendedLevel": 24,
+  "Frequency": 1,
+  "QuestStart": {
+    "ObjectName": "Ausgrabungsleiter Whelgar",
+    "EntryId": 41411,
+    "AdditionalEntryIds": null,
+    "ContinentId": 0,
+    "ZoneId": 11,
+    "Position": "-3232.656 -1999.408 50.54758",
+    "TurnInType": 0,
+    "IsIndoors": true,
+    "MyFaction": 0
+  },
+  "ActionOrder": 1,
+  "Actions": [
+    {
+      "$type": "KillMobsTemplate",
+      "TargetObjects": [
+        {
+          "Hotspot": {
+            "Position": "-3650.43 -2598.42 51.89855",
+            "GroundPosition": "0 0 0",
+            "IsGroundPosition": false,
+            "ContinentId": 0
+          },
+          "Name": "Gorfax Grollhauer",
+          "EntryId": 46122
+        }
+      ],
+      "HotspotsX": [
+        {
+          "Position": "-3600.847 -2526.57 53.95312",
+          "GroundPosition": "0 0 0",
+          "IsGroundPosition": false,
+          "ContinentId": 0
+        }
+      ],
+      "Blackspots": [],
+      "ForceLoot": false,
+      "ForcePullMobs": false,
+      "GameObjectiveIndex": 1,
+      "RunTime": 5.0
+    },
+    {
+      "$type": "KillMobsTemplate",
+      "TargetObjects": [
+        {
+          "Hotspot": {
+            "Position": "-3647.79 -2608.24 51.89917",
+            "GroundPosition": "0 0 0",
+            "IsGroundPosition": false,
+            "ContinentId": 0
+          },
+          "Name": "Schattenwärter des Drachenmals",
+          "EntryId": 1038
+        },
+        {
+          "Hotspot": {
+            "Position": "-3613.209 -2562.498 51.93417",
+            "GroundPosition": "0 0 0",
+            "IsGroundPosition": false,
+            "ContinentId": 0
+          },
+          "Name": "Zenturio des Drachenmals",
+          "EntryId": 1036
+        },
+        {
+          "Hotspot": {
+            "Position": "-3513.904 -2481.24 48.24725",
+            "GroundPosition": "0 0 0",
+            "IsGroundPosition": false,
+            "ContinentId": 0
+          },
+          "Name": "Knochenwärter des Drachenmals",
+          "EntryId": 1057
+        },
+        {
+          "Hotspot": {
+            "Position": "-3534.539 -2411.732 72.46037",
+            "GroundPosition": "0 0 0",
+            "IsGroundPosition": false,
+            "ContinentId": 0
+          },
+          "Name": "Sumpfläufer des Drachenmals",
+          "EntryId": 1035
+        },
+        {
+          "Hotspot": {
+            "Position": "-3412.598 -2292.38 51.91934",
+            "GroundPosition": "0 0 0",
+            "ContinentId": 0
+          },
+          "Name": "Räuber des Drachenmals",
+          "EntryId": 1034
+        }
+      ],
+      "HotspotsX": [
+        {
+          "Position": "-3584.538 -2513.25 52.31421",
+          "GroundPosition": "0 0 0",
+          "IsGroundPosition": false,
+          "ContinentId": 0
+        },
+        {
+          "Position": "-3518.713 -2450.63 49.16994",
+          "GroundPosition": "0 0 0",
+          "IsGroundPosition": false,
+          "ContinentId": 0
+        }
+      ],
+      "Blackspots": [],
+      "ForceLoot": false,
+      "ForcePullMobs": false,
+      "GameObjectiveIndex": 2,
+      "RunTime": 5.0
+    }
+  ]
+}

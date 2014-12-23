@@ -1,0 +1,31 @@
+{
+  "QuestID": 26639,
+  "Version": 1,
+  "FactionGroup": 2,
+  "UpdatedOn": "2014-12-22T21:14:55.4668729Z",
+  "Comment": "",
+  "CreatedBy": null,
+  "QuestStart": {
+    "ObjectName": "John J. Keeshan",
+    "EntryId": 43458,
+    "AdditionalEntryIds": null,
+    "ContinentId": 0,
+    "ZoneId": 44,
+    "Position": "-9463.47 -2829.04 65.27885",
+    "TurnInType": 0,
+    "IsIndoors": true,
+    "MyFaction": 0
+  },
+  "QuestEnd": {
+    "ObjectName": "Brubaker",
+    "EntryId": 43508,
+    "AdditionalEntryIds": null,
+    "ContinentId": 0,
+    "ZoneId": 44,
+    "Position": "-9676.19 -2841.93 54.28123",
+    "TurnInType": 0,
+    "MyFaction": 2
+  },
+  "ActionOrder": 1,
+  "Actions": []
+}

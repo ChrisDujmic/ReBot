@@ -1,0 +1,181 @@
+{
+  "QuestID": 26209,
+  "Version": 3,
+  "FactionGroup": 2,
+  "CreatedOn": "2014-09-04T04:13:27.7063492Z",
+  "UpdatedOn": "2014-12-21T08:26:21.6783082Z",
+  "Comment": "",
+  "CreatedBy": null,
+  "RecommendedLevel": 11,
+  "Frequency": 1,
+  "QuestStart": {
+    "ObjectName": "Lieutenant Horatio Laine",
+    "EntryId": 42308,
+    "AdditionalEntryIds": null,
+    "ContinentId": 0,
+    "ZoneId": 40,
+    "Position": "-9849.855 914.9617 30.26888",
+    "TurnInType": 0,
+    "MyFaction": 0
+  },
+  "ActionOrder": 1,
+  "Actions": [
+    {
+      "$type": "GossipInteractionTemplate",
+      "TargetObjects": [
+        {
+          "Hotspot": {
+            "Position": "-9826.696 1008.551 29.13097",
+            "GroundPosition": "0 0 0",
+            "ContinentId": 0
+          },
+          "Name": "Streuner der Westlichen Ebenen",
+          "EntryId": 42391
+        },
+        {
+          "Hotspot": {
+            "Position": "-9846.153 975.2498 29.13074",
+            "GroundPosition": "0 0 0",
+            "ContinentId": 0
+          },
+          "Name": "Obdachloser Bürger von Sturmwind",
+          "EntryId": 42384
+        },
+        {
+          "Hotspot": {
+            "Position": "-9820.404 945.3242 29.1307",
+            "GroundPosition": "0 0 0",
+            "ContinentId": 0
+          },
+          "Name": "Obdachlose Bürgerin von Sturmwind",
+          "EntryId": 42386
+        }
+      ],
+      "HotspotsX": [
+        {
+          "Position": "-9815.214 960.1054 29.13047",
+          "GroundPosition": "0 0 0",
+          "IsGroundPosition": false
+        }
+      ],
+      "GossipIndex": 2,
+      "Dismount": false,
+      "GameObjectiveIndex": 1,
+      "RunTime": 5.0
+    },
+    {
+      "$type": "GossipInteractionTemplate",
+      "TargetObjects": [
+        {
+          "Hotspot": {
+            "Position": "-9822.576 944.3014 29.1307",
+            "GroundPosition": "0 0 0",
+            "ContinentId": 0
+          },
+          "Name": "Obdachlose Bürgerin von Sturmwind",
+          "EntryId": 42386
+        },
+        {
+          "Hotspot": {
+            "Position": "-9848.218 974.5926 29.13074",
+            "GroundPosition": "0 0 0",
+            "ContinentId": 0
+          },
+          "Name": "Obdachloser Bürger von Sturmwind",
+          "EntryId": 42384
+        },
+        {
+          "Hotspot": {
+            "Position": "-9818.167 979.7618 29.13048",
+            "GroundPosition": "0 0 0",
+            "ContinentId": 0
+          },
+          "Name": "Streuner der Westlichen Ebenen",
+          "EntryId": 42391
+        }
+      ],
+      "HotspotsX": [],
+      "GossipIndex": 2,
+      "Dismount": false,
+      "GameObjectiveIndex": 2,
+      "RunTime": 5.0
+    },
+    {
+      "$type": "GossipInteractionTemplate",
+      "TargetObjects": [
+        {
+          "Hotspot": {
+            "Position": "-9830.58 961.757 29.13107",
+            "GroundPosition": "0 0 0",
+            "IsGroundPosition": false,
+            "ContinentId": 0
+          },
+          "Name": "Streuner der Westlichen Ebenen",
+          "EntryId": 42391
+        },
+        {
+          "Hotspot": {
+            "Position": "-9800.195 966.1169 29.13138",
+            "GroundPosition": "0 0 0",
+            "IsGroundPosition": false,
+            "ContinentId": 0
+          },
+          "Name": "Obdachloser Bürger von Sturmwind",
+          "EntryId": 42384
+        },
+        {
+          "Hotspot": {
+            "Position": "-9792.229 976.033 29.13114",
+            "GroundPosition": "0 0 0",
+            "IsGroundPosition": false,
+            "ContinentId": 0
+          },
+          "Name": "Obdachlose Bürgerin von Sturmwind",
+          "EntryId": 42386
+        }
+      ],
+      "HotspotsX": [],
+      "GossipIndex": 2,
+      "Dismount": false,
+      "GameObjectiveIndex": 3,
+      "RunTime": 5.0
+    },
+    {
+      "$type": "GossipInteractionTemplate",
+      "TargetObjects": [
+        {
+          "Hotspot": {
+            "Position": "-9819.879 970.9431 29.13062",
+            "GroundPosition": "0 0 0",
+            "ContinentId": 0
+          },
+          "Name": "Streuner der Westlichen Ebenen",
+          "EntryId": 42391
+        },
+        {
+          "Hotspot": {
+            "Position": "-9791.956 977.5375 29.13114",
+            "GroundPosition": "0 0 0",
+            "ContinentId": 0
+          },
+          "Name": "Obdachlose Bürgerin von Sturmwind",
+          "EntryId": 42386
+        },
+        {
+          "Hotspot": {
+            "Position": "-9803.218 963.2177 29.13138",
+            "GroundPosition": "0 0 0",
+            "ContinentId": 0
+          },
+          "Name": "Obdachloser Bürger von Sturmwind",
+          "EntryId": 42384
+        }
+      ],
+      "HotspotsX": [],
+      "GossipIndex": 2,
+      "Dismount": false,
+      "GameObjectiveIndex": 4,
+      "RunTime": 5.0
+    }
+  ]
+}

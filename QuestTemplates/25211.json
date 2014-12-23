@@ -1,0 +1,57 @@
+{
+  "QuestID": 25211,
+  "Version": 1,
+  "FactionGroup": 2,
+  "UpdatedOn": "2014-12-23T17:15:17.2707325Z",
+  "Comment": "",
+  "CreatedBy": null,
+  "QuestStart": {
+    "ObjectName": "Gebirgsjäger Grugelm",
+    "EntryId": 41074,
+    "AdditionalEntryIds": null,
+    "ContinentId": 0,
+    "ZoneId": 11,
+    "Position": "-4331.828 -2453.523 212.2745",
+    "TurnInType": 0,
+    "IsIndoors": true,
+    "MyFaction": 0
+  },
+  "ActionOrder": 1,
+  "Actions": [
+    {
+      "$type": "KillMobsTemplate",
+      "TargetObjects": [
+        {
+          "Hotspot": {
+            "Position": "-4231.226 -2351.128 204.3082",
+            "GroundPosition": "0 0 0",
+            "ContinentId": 0
+          },
+          "Name": "Grunzer des Drachenmals",
+          "EntryId": 41072
+        },
+        {
+          "Hotspot": {
+            "Position": "-4194.471 -2348.073 214.7377",
+            "GroundPosition": "0 0 0",
+            "ContinentId": 0
+          },
+          "Name": "Späher des Drachenmals",
+          "EntryId": 41080
+        }
+      ],
+      "HotspotsX": [
+        {
+          "Position": "-4274.672 -2370.522 208.6468",
+          "GroundPosition": "0 0 0",
+          "ContinentId": 0
+        }
+      ],
+      "Blackspots": [],
+      "ForceLoot": false,
+      "ForcePullMobs": false,
+      "GameObjectiveIndex": 1,
+      "RunTime": 5.0
+    }
+  ]
+}

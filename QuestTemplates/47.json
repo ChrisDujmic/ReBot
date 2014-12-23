@@ -1,0 +1,99 @@
+{
+  "QuestID": 47,
+  "Version": 2,
+  "FactionGroup": 0,
+  "CreatedOn": "2014-09-03T11:50:59.7594852Z",
+  "UpdatedOn": "2014-12-20T13:59:33.5679816Z",
+  "Comment": "",
+  "CreatedBy": null,
+  "RecommendedLevel": 7,
+  "QuestStart": {
+    "ObjectName": "Remy \"Two Times\"",
+    "EntryId": 241,
+    "AdditionalEntryIds": null,
+    "ContinentId": 0,
+    "ZoneId": 12,
+    "Position": "-9496.319 72.82639 56.41537",
+    "TurnInType": 0,
+    "MyFaction": 0
+  },
+  "ActionOrder": 1,
+  "Actions": [
+    {
+      "$type": "KillMobsTemplate",
+      "TargetObjects": [
+        {
+          "Name": "Kobold Tunneler",
+          "EntryId": 475
+        }
+      ],
+      "HotspotsX": [
+        {
+          "Position": "-9867.823 176.0813 18.92819",
+          "GroundPosition": "0 0 0",
+          "IsGroundPosition": false,
+          "ContinentId": 0
+        },
+        {
+          "Position": "-9840.89 184.5534 22.56726",
+          "GroundPosition": "0 0 0",
+          "IsGroundPosition": false,
+          "IsIndoors": true,
+          "ContinentId": 0
+        },
+        {
+          "Position": "-9815.008 181.8761 22.70097",
+          "GroundPosition": "0 0 0",
+          "IsGroundPosition": false,
+          "IsIndoors": true,
+          "ContinentId": 0
+        },
+        {
+          "Position": "-9799.057 167.8728 23.97402",
+          "GroundPosition": "0 0 0",
+          "IsGroundPosition": false,
+          "IsIndoors": true,
+          "ContinentId": 0
+        },
+        {
+          "Position": "-9789.748 137.3096 24.19814",
+          "GroundPosition": "0 0 0",
+          "IsGroundPosition": false,
+          "IsIndoors": true,
+          "ContinentId": 0
+        },
+        {
+          "Position": "-9796.333 161.9609 25.57102",
+          "GroundPosition": "0 0 0",
+          "IsGroundPosition": false,
+          "IsIndoors": true,
+          "ContinentId": 0
+        },
+        {
+          "Position": "-9830.928 181.5278 22.35696",
+          "GroundPosition": "0 0 0",
+          "IsGroundPosition": false,
+          "IsIndoors": true,
+          "ContinentId": 0
+        },
+        {
+          "Position": "-9851.321 181.6521 20.81758",
+          "GroundPosition": "0 0 0",
+          "IsGroundPosition": false,
+          "ContinentId": 0
+        },
+        {
+          "Position": "-9895.054 220.4931 14.52821",
+          "GroundPosition": "0 0 0",
+          "IsGroundPosition": false,
+          "ContinentId": 0
+        }
+      ],
+      "Blackspots": [],
+      "ForceLoot": true,
+      "ForcePullMobs": true,
+      "GameObjectiveIndex": 1,
+      "RunTime": 5.0
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "QuestID": 25853,
+  "Version": 1,
+  "FactionGroup": 2,
+  "UpdatedOn": "2014-12-23T22:10:19.9345875Z",
+  "Comment": "",
+  "CreatedBy": null,
+  "QuestStart": {
+    "ObjectName": "Merrin Felsweber",
+    "EntryId": 41413,
+    "AdditionalEntryIds": null,
+    "ContinentId": 0,
+    "ZoneId": 11,
+    "Position": "-3242.648 -1995.719 50.54789",
+    "TurnInType": 0,
+    "IsIndoors": true,
+    "MyFaction": 0
+  },
+  "ActionOrder": 1,
+  "Actions": [
+    {
+      "$type": "CollectObjectsTemplate",
+      "TargetObjects": [
+        {
+          "Hotspot": {
+            "Position": "-3432.769 -1788.441 16.50593",
+            "GroundPosition": "0 0 0",
+            "ContinentId": 0
+          },
+          "Name": "Archäologenwerkzeuge",
+          "EntryId": 203283
+        }
+      ],
+      "HotspotsX": [
+        {
+          "Position": "-3361.22 -1813.444 24.04782",
+          "GroundPosition": "0 0 0",
+          "ContinentId": 0
+        }
+      ],
+      "Blackspots": [],
+      "IsLoot": true,
+      "OpeningCast": true,
+      "NoMovement": false,
+      "GameObjectiveIndex": 1,
+      "RunTime": 5.0
+    }
+  ]
+}

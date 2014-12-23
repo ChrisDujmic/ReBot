@@ -1,0 +1,56 @@
+{
+  "QuestID": 26545,
+  "Version": 1,
+  "FactionGroup": 0,
+  "CreatedOn": "2014-12-12T11:23:49.2214066Z",
+  "UpdatedOn": "2014-12-21T17:42:10.9177756Z",
+  "Comment": "Added Questgiver",
+  "CreatedBy": null,
+  "QuestStart": {
+    "ObjectName": "Magistrat Solomon",
+    "EntryId": 344,
+    "AdditionalEntryIds": null,
+    "ContinentId": 0,
+    "ZoneId": 44,
+    "Position": "-9218.61 -2221.804 67.53977",
+    "TurnInType": 0,
+    "IsIndoors": true,
+    "MyFaction": 2
+  },
+  "QuestEnd": {
+    "ObjectName": "Magistrate Solomon",
+    "EntryId": 344,
+    "AdditionalEntryIds": null,
+    "ContinentId": 0,
+    "ZoneId": 44,
+    "Position": "-9218.61 -2221.804 67.54027",
+    "TurnInType": 0,
+    "IsIndoors": true,
+    "MyFaction": 0
+  },
+  "ActionOrder": 1,
+  "Actions": [
+    {
+      "$type": "KillMobsTemplate",
+      "TargetObjects": [
+        {
+          "Name": "Yowler",
+          "EntryId": 518
+        }
+      ],
+      "HotspotsX": [
+        {
+          "Position": "-8899.303 -2192.026 134.9963",
+          "GroundPosition": "0 0 0",
+          "IsGroundPosition": false,
+          "ContinentId": 0
+        }
+      ],
+      "Blackspots": [],
+      "ForceLoot": true,
+      "ForcePullMobs": false,
+      "GameObjectiveIndex": 1,
+      "RunTime": 5.0
+    }
+  ]
+}

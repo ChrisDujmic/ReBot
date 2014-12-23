@@ -1,0 +1,31 @@
+{
+  "QuestID": 84,
+  "Version": 1,
+  "FactionGroup": 0,
+  "CreatedOn": "2014-12-12T11:24:01.3190985Z",
+  "UpdatedOn": "2014-12-20T15:41:11.8587839Z",
+  "Comment": "",
+  "CreatedBy": null,
+  "QuestStart": {
+    "ObjectName": "\"Auntie\" Bernice Stonefield",
+    "EntryId": 246,
+    "AdditionalEntryIds": null,
+    "ContinentId": 0,
+    "ZoneId": 12,
+    "Position": "-9889.681 338.4665 36.49803",
+    "TurnInType": 0,
+    "MyFaction": 0
+  },
+  "QuestEnd": {
+    "ObjectName": "Billy Maclure",
+    "EntryId": 247,
+    "AdditionalEntryIds": null,
+    "ContinentId": 0,
+    "ZoneId": 0,
+    "Position": "-9923.681 38.38715 32.41259",
+    "TurnInType": 0,
+    "MyFaction": 0
+  },
+  "ActionOrder": 1,
+  "Actions": []
+}

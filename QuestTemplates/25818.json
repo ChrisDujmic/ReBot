@@ -1,0 +1,64 @@
+{
+  "QuestID": 25818,
+  "Version": 2,
+  "FactionGroup": 2,
+  "CreatedOn": "2014-12-23T20:13:26.7224547Z",
+  "UpdatedOn": "2014-12-23T20:13:34.1298783Z",
+  "Comment": "",
+  "CreatedBy": null,
+  "RecommendedLevel": 23,
+  "Frequency": 1,
+  "QuestStart": {
+    "ObjectName": "Erster Maat Snellig",
+    "EntryId": 41307,
+    "AdditionalEntryIds": null,
+    "ContinentId": 0,
+    "ZoneId": 11,
+    "Position": "-2957.703 -1019.526 10.37177",
+    "TurnInType": 0,
+    "IsIndoors": true,
+    "MyFaction": 0
+  },
+  "QuestEnd": {
+    "ObjectName": "Verschlossene Geldkassette der 'Kühnheit'",
+    "EntryId": 112948,
+    "AdditionalEntryIds": [],
+    "ContinentId": 0,
+    "ZoneId": 11,
+    "Position": "-2810.564 -984.1483 -13.32954",
+    "TurnInType": 1,
+    "MyFaction": 2
+  },
+  "ActionOrder": 1,
+  "Actions": [
+    {
+      "$type": "KillMobsTemplate",
+      "TargetObjects": [
+        {
+          "Hotspot": {
+            "Position": "-2802.12 -1011.14 4.332438",
+            "GroundPosition": "0 0 0",
+            "IsGroundPosition": false,
+            "ContinentId": 0
+          },
+          "Name": "Kapitän Halyndor",
+          "EntryId": 41429
+        }
+      ],
+      "HotspotsX": [
+        {
+          "Position": "-2875.744 -1018.875 -2.257587",
+          "GroundPosition": "0 0 0",
+          "IsGroundPosition": false,
+          "InWater": true,
+          "ContinentId": 0
+        }
+      ],
+      "Blackspots": [],
+      "ForceLoot": true,
+      "ForcePullMobs": false,
+      "GameObjectiveIndex": 1,
+      "RunTime": 5.0
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "QuestID": 26587,
+  "Version": 10,
+  "FactionGroup": 2,
+  "CreatedOn": "2014-12-22T16:04:58.3679702Z",
+  "UpdatedOn": "2014-12-22T18:19:20.8106806Z",
+  "Comment": "",
+  "CreatedBy": null,
+  "RecommendedLevel": 17,
+  "Frequency": 1,
+  "QuestStart": {
+    "ObjectName": "Messner",
+    "EntryId": 43270,
+    "AdditionalEntryIds": null,
+    "ContinentId": 0,
+    "ZoneId": 44,
+    "Position": "-9233.03 -2700.04 89.08646",
+    "TurnInType": 0,
+    "MyFaction": 2
+  },
+  "ScriptText": "{\r\n  \"Children\": [],\r\n  \"GroupName\": \"\"\r\n}",
+  "ActionOrder": 1,
+  "Actions": [
+    {
+      "$type": "CollectObjectsTemplate",
+      "TargetObjects": [
+        {
+          "Hotspot": {
+            "Position": "-9165.36 -2744.02 87.9712",
+            "GroundPosition": "0 0 0",
+            "IsGroundPosition": false,
+            "ContinentId": 0
+          },
+          "Name": "Schwarzfelsschlüsselbeutel",
+          "EntryId": 204389
+        }
+      ],
+      "HotspotsX": [
+        {
+          "Position": "-9165.644 -2742.122 88.70136",
+          "GroundPosition": "0 0 0",
+          "IsGroundPosition": false,
+          "ContinentId": 0
+        }
+      ],
+      "Blackspots": [],
+      "IsLoot": true,
+      "OpeningCast": false,
+      "NoMovement": false,
+      "GameObjectiveIndex": 1,
+      "RunTime": 5.0
+    }
+  ]
+}
