@@ -1,0 +1,31 @@
+{
+  "QuestID": 26196,
+  "Version": 1,
+  "FactionGroup": 2,
+  "UpdatedOn": "2014-12-25T20:27:40.2066461Z",
+  "Comment": "",
+  "CreatedBy": null,
+  "QuestStart": {
+    "ObjectName": "Ferilon Laubkind",
+    "EntryId": 41615,
+    "AdditionalEntryIds": null,
+    "ContinentId": 0,
+    "ZoneId": 11,
+    "Position": "-3248.208 -2723.014 9.412513",
+    "TurnInType": 0,
+    "IsIndoors": true,
+    "MyFaction": 0
+  },
+  "QuestEnd": {
+    "ObjectName": "Langzopf der Grimmige",
+    "EntryId": 1071,
+    "AdditionalEntryIds": null,
+    "ContinentId": 0,
+    "ZoneId": 11,
+    "Position": "-2651.195 -2449.163 80.03374",
+    "TurnInType": 0,
+    "MyFaction": 2
+  },
+  "ActionOrder": 1,
+  "Actions": []
+}

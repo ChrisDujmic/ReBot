@@ -1,0 +1,65 @@
+{
+  "QuestID": 25939,
+  "Version": 2,
+  "FactionGroup": 2,
+  "CreatedOn": "2014-12-25T20:15:35.3134513Z",
+  "UpdatedOn": "2014-12-25T20:15:41.707461Z",
+  "Comment": "",
+  "CreatedBy": null,
+  "RecommendedLevel": 24,
+  "Frequency": 1,
+  "QuestStart": {
+    "ObjectName": "Ferilon Laubkind",
+    "EntryId": 41615,
+    "AdditionalEntryIds": null,
+    "ContinentId": 0,
+    "ZoneId": 11,
+    "Position": "-3248.208 -2723.014 9.412564",
+    "TurnInType": 0,
+    "IsIndoors": true,
+    "MyFaction": 0
+  },
+  "ActionOrder": 1,
+  "Actions": [
+    {
+      "$type": "UseItemTemplate",
+      "UseMethod": 0,
+      "OverrideCooldown": 0.0,
+      "OverrideCastTime": 0.0,
+      "StayMounted": false,
+      "MinCastRange": 4.5,
+      "DontFilterDeadUnits": false,
+      "UseCount": 1,
+      "TargetUnits": [
+        {
+          "Hotspot": {
+            "Position": "-3115.017 -2856.583 25.21663",
+            "GroundPosition": "0 0 0",
+            "IsGroundPosition": false,
+            "ContinentId": 0
+          },
+          "Name": "Marsh Fire Bunny",
+          "EntryId": 41628
+        }
+      ],
+      "HotspotsX": [
+        {
+          "Position": "-3022.244 -2892.987 28.82446",
+          "GroundPosition": "0 0 0",
+          "ContinentId": 0
+        }
+      ],
+      "Blackspots": [],
+      "Item": [
+        {
+          "Name": "Gesegnete Flutlilie",
+          "EntryId": 56134
+        }
+      ],
+      "BanTime": 120.0,
+      "BanMobCombatAfterUse": false,
+      "GameObjectiveIndex": 1,
+      "RunTime": 5.0
+    }
+  ]
+}

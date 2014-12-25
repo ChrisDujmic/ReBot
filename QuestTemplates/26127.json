@@ -1,0 +1,49 @@
+{
+  "QuestID": 26127,
+  "Version": 1,
+  "FactionGroup": 2,
+  "UpdatedOn": "2014-12-25T20:30:34.64068Z",
+  "Comment": "",
+  "CreatedBy": null,
+  "QuestStart": {
+    "ObjectName": "Thargas Ambossar",
+    "EntryId": 42160,
+    "AdditionalEntryIds": null,
+    "ContinentId": 0,
+    "ZoneId": 11,
+    "Position": "-2622.276 -2433.997 80.75529",
+    "TurnInType": 0,
+    "MyFaction": 2
+  },
+  "ActionOrder": 1,
+  "Actions": [
+    {
+      "$type": "KillMobsTemplate",
+      "TargetObjects": [
+        {
+          "Hotspot": {
+            "Position": "-2606.518 -2386.423 79.60546",
+            "GroundPosition": "0 0 0",
+            "IsGroundPosition": false,
+            "ContinentId": 0
+          },
+          "Name": "Zwielichtkonvertit",
+          "EntryId": 42154
+        }
+      ],
+      "HotspotsX": [
+        {
+          "Position": "-2613.529 -2418.943 79.26239",
+          "GroundPosition": "0 0 0",
+          "IsGroundPosition": false,
+          "ContinentId": 0
+        }
+      ],
+      "Blackspots": [],
+      "ForceLoot": false,
+      "ForcePullMobs": false,
+      "GameObjectiveIndex": 1,
+      "RunTime": 5.0
+    }
+  ]
+}

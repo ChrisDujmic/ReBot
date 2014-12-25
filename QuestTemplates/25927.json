@@ -1,0 +1,48 @@
+{
+  "QuestID": 25927,
+  "Version": 1,
+  "FactionGroup": 2,
+  "UpdatedOn": "2014-12-25T20:15:45.9034672Z",
+  "Comment": "",
+  "CreatedBy": null,
+  "QuestStart": {
+    "ObjectName": "Rethiel der Sumpfhüter",
+    "EntryId": 41503,
+    "AdditionalEntryIds": null,
+    "ContinentId": 0,
+    "ZoneId": 11,
+    "Position": "-3262.715 -2719.243 9.412",
+    "TurnInType": 0,
+    "IsIndoors": true,
+    "MyFaction": 0
+  },
+  "ActionOrder": 1,
+  "Actions": [
+    {
+      "$type": "KillMobsTemplate",
+      "TargetObjects": [
+        {
+          "Hotspot": {
+            "Position": "-2944.767 -2885.901 30.03863",
+            "GroundPosition": "0 0 0",
+            "ContinentId": 0
+          },
+          "Name": "Zügelloser Feuerelementar",
+          "EntryId": 41449
+        }
+      ],
+      "HotspotsX": [
+        {
+          "Position": "-3022.244 -2892.987 28.82446",
+          "GroundPosition": "0 0 0",
+          "ContinentId": 0
+        }
+      ],
+      "Blackspots": [],
+      "ForceLoot": false,
+      "ForcePullMobs": false,
+      "GameObjectiveIndex": 1,
+      "RunTime": 5.0
+    }
+  ]
+}

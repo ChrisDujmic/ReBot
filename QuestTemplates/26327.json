@@ -1,0 +1,31 @@
+{
+  "QuestID": 26327,
+  "Version": 1,
+  "FactionGroup": 2,
+  "UpdatedOn": "2014-12-25T20:28:36.9989885Z",
+  "Comment": "",
+  "CreatedBy": null,
+  "QuestStart": {
+    "ObjectName": "Langzopf der Grimmige",
+    "EntryId": 1071,
+    "AdditionalEntryIds": null,
+    "ContinentId": 0,
+    "ZoneId": 11,
+    "Position": "-2651.195 -2449.163 80.03374",
+    "TurnInType": 0,
+    "IsIndoors": true,
+    "MyFaction": 0
+  },
+  "QuestEnd": {
+    "ObjectName": "Thargas Ambossar",
+    "EntryId": 42160,
+    "AdditionalEntryIds": null,
+    "ContinentId": 0,
+    "ZoneId": 11,
+    "Position": "-2622.276 -2433.997 80.75529",
+    "TurnInType": 0,
+    "MyFaction": 2
+  },
+  "ActionOrder": 1,
+  "Actions": []
+}

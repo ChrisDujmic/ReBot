@@ -1,0 +1,58 @@
+{
+  "QuestID": 26128,
+  "Version": 1,
+  "FactionGroup": 2,
+  "UpdatedOn": "2014-12-25T20:35:13.5833021Z",
+  "Comment": "",
+  "CreatedBy": null,
+  "QuestStart": {
+    "ObjectName": "Thargas Ambossar",
+    "EntryId": 42160,
+    "AdditionalEntryIds": null,
+    "ContinentId": 0,
+    "ZoneId": 11,
+    "Position": "-2622.276 -2433.997 80.75529",
+    "TurnInType": 0,
+    "IsIndoors": true,
+    "MyFaction": 0
+  },
+  "QuestEnd": {
+    "ObjectName": "WatchFramePopup",
+    "EntryId": 0,
+    "AdditionalEntryIds": [],
+    "ContinentId": 0,
+    "ZoneId": 11,
+    "Position": "0 0 0",
+    "TurnInType": 4,
+    "MyFaction": 2
+  },
+  "ActionOrder": 1,
+  "Actions": [
+    {
+      "$type": "KillMobsTemplate",
+      "TargetObjects": [
+        {
+          "Hotspot": {
+            "Position": "-2400.082 -2503.793 86.43771",
+            "GroundPosition": "0 0 0",
+            "ContinentId": 0
+          },
+          "Name": "Calamoth Aschbart",
+          "EntryId": 41522
+        }
+      ],
+      "HotspotsX": [
+        {
+          "Position": "-2402.634 -2502.135 85.94793",
+          "GroundPosition": "0 0 0",
+          "ContinentId": 0
+        }
+      ],
+      "Blackspots": [],
+      "ForceLoot": false,
+      "ForcePullMobs": false,
+      "GameObjectiveIndex": 1,
+      "RunTime": 5.0
+    }
+  ]
+}

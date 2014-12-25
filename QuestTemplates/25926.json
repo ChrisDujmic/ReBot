@@ -1,0 +1,53 @@
+{
+  "QuestID": 25926,
+  "Version": 1,
+  "FactionGroup": 2,
+  "UpdatedOn": "2014-12-25T20:05:01.2407518Z",
+  "Comment": "",
+  "CreatedBy": null,
+  "QuestStart": {
+    "ObjectName": "Rethiel der Sumpfhüter",
+    "EntryId": 41503,
+    "AdditionalEntryIds": null,
+    "ContinentId": 0,
+    "ZoneId": 11,
+    "Position": "-3262.715 -2719.243 9.412232",
+    "TurnInType": 0,
+    "IsIndoors": true,
+    "MyFaction": 0
+  },
+  "ActionOrder": 1,
+  "Actions": [
+    {
+      "$type": "KillMobsTemplate",
+      "TargetObjects": [
+        {
+          "Hotspot": {
+            "Position": "-3179.962 -2550.282 9.907764",
+            "GroundPosition": "0 0 0",
+            "ContinentId": 0
+          },
+          "Name": "Modernde Morastbestie",
+          "EntryId": 41424
+        }
+      ],
+      "HotspotsX": [
+        {
+          "Position": "-3194.661 -2632.147 6.621606",
+          "GroundPosition": "0 0 0",
+          "ContinentId": 0
+        },
+        {
+          "Position": "-3068.781 -2469.132 9.448101",
+          "GroundPosition": "0 0 0",
+          "ContinentId": 0
+        }
+      ],
+      "Blackspots": [],
+      "ForceLoot": false,
+      "ForcePullMobs": false,
+      "GameObjectiveIndex": 1,
+      "RunTime": 5.0
+    }
+  ]
+}

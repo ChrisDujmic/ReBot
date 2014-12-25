@@ -1,0 +1,31 @@
+{
+  "QuestID": 26139,
+  "Version": 1,
+  "FactionGroup": 2,
+  "UpdatedOn": "2014-12-25T20:39:15.1626987Z",
+  "Comment": "",
+  "CreatedBy": null,
+  "QuestStart": {
+    "ObjectName": "Thargas Ambossar",
+    "EntryId": 42160,
+    "AdditionalEntryIds": null,
+    "ContinentId": 0,
+    "ZoneId": 11,
+    "Position": "-2622.276 -2433.997 80.75545",
+    "TurnInType": 0,
+    "IsIndoors": true,
+    "MyFaction": 0
+  },
+  "QuestEnd": {
+    "ObjectName": "Hauptmann Nials",
+    "EntryId": 2700,
+    "AdditionalEntryIds": null,
+    "ContinentId": 0,
+    "ZoneId": 45,
+    "Position": "-1274.687 -2516.632 21.34494",
+    "TurnInType": 0,
+    "MyFaction": 2
+  },
+  "ActionOrder": 1,
+  "Actions": []
+}
