@@ -1,0 +1,86 @@
+{
+  "QuestID": 26079,
+  "Version": 1,
+  "FactionGroup": 2,
+  "UpdatedOn": "2014-12-25T21:36:29.1667899Z",
+  "Comment": "",
+  "CreatedBy": null,
+  "QuestStart": {
+    "ObjectName": "Steckbriefbrett",
+    "EntryId": 2713,
+    "AdditionalEntryIds": null,
+    "ContinentId": 0,
+    "ZoneId": 45,
+    "Position": "-1279.634 -2524.149 22.71724",
+    "TurnInType": 1,
+    "IsIndoors": true,
+    "MyFaction": 0
+  },
+  "QuestEnd": {
+    "ObjectName": "Hauptmann Nials",
+    "EntryId": 2700,
+    "AdditionalEntryIds": null,
+    "ContinentId": 0,
+    "ZoneId": 45,
+    "Position": "-1274.687 -2516.632 21.34442",
+    "TurnInType": 0,
+    "MyFaction": 2
+  },
+  "ActionOrder": 1,
+  "Actions": [
+    {
+      "$type": "KillMobsTemplate",
+      "TargetObjects": [
+        {
+          "Hotspot": {
+            "Position": "-1706.604 -1810.696 101.7912",
+            "GroundPosition": "0 0 0",
+            "IsIndoors": true,
+            "ContinentId": 0
+          },
+          "Name": "Otto",
+          "EntryId": 2599
+        }
+      ],
+      "HotspotsX": [
+        {
+          "Position": "-1613.049 -1803.744 79.26895",
+          "GroundPosition": "0 0 0",
+          "ContinentId": 0
+        }
+      ],
+      "Blackspots": [],
+      "ForceLoot": true,
+      "ForcePullMobs": false,
+      "GameObjectiveIndex": 1,
+      "RunTime": 5.0
+    },
+    {
+      "$type": "KillMobsTemplate",
+      "TargetObjects": [
+        {
+          "Hotspot": {
+            "Position": "-1709.681 -1803.798 101.7912",
+            "GroundPosition": "0 0 0",
+            "IsIndoors": true,
+            "ContinentId": 0
+          },
+          "Name": "Lord Falkenstein",
+          "EntryId": 2597
+        }
+      ],
+      "HotspotsX": [
+        {
+          "Position": "-1613.049 -1803.744 79.26895",
+          "GroundPosition": "0 0 0",
+          "ContinentId": 0
+        }
+      ],
+      "Blackspots": [],
+      "ForceLoot": true,
+      "ForcePullMobs": false,
+      "GameObjectiveIndex": 2,
+      "RunTime": 5.0
+    }
+  ]
+}

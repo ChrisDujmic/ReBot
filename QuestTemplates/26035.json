@@ -1,0 +1,127 @@
+{
+  "QuestID": 26035,
+  "Version": 2,
+  "FactionGroup": 2,
+  "CreatedOn": "2014-12-26T13:02:47.4306623Z",
+  "UpdatedOn": "2014-12-26T13:03:18.8574599Z",
+  "Comment": "",
+  "CreatedBy": null,
+  "RecommendedLevel": 26,
+  "Frequency": 1,
+  "QuestStart": {
+    "ObjectName": "Skuerto",
+    "EntryId": 2789,
+    "AdditionalEntryIds": null,
+    "ContinentId": 0,
+    "ZoneId": 45,
+    "Position": "-1281.153 -2529.644 21.52101",
+    "TurnInType": 0,
+    "IsIndoors": true,
+    "MyFaction": 0
+  },
+  "ActionOrder": 1,
+  "Actions": [
+    {
+      "$type": "KillMobsTemplate",
+      "TargetObjects": [
+        {
+          "Hotspot": {
+            "Position": "-1760.049 -3139.644 30.45984",
+            "GroundPosition": "0 0 0",
+            "IsGroundPosition": false,
+            "ContinentId": 0
+          },
+          "Name": "Hexendoktor der Bleichborken",
+          "EntryId": 2555
+        }
+      ],
+      "HotspotsX": [
+        {
+          "Position": "-1728.054 -3121.701 26.49701",
+          "GroundPosition": "0 0 0",
+          "IsGroundPosition": false,
+          "ContinentId": 0
+        },
+        {
+          "Position": "-1833.624 -3125.457 45.24882",
+          "GroundPosition": "0 0 0",
+          "IsGroundPosition": false,
+          "ContinentId": 0
+        },
+        {
+          "Position": "-1880.407 -3198.181 56.53221",
+          "GroundPosition": "0 0 0",
+          "ContinentId": 0
+        },
+        {
+          "Position": "-1846.332 -3269.755 42.96836",
+          "GroundPosition": "0 0 0",
+          "ContinentId": 0
+        }
+      ],
+      "Blackspots": [],
+      "ForceLoot": true,
+      "ForcePullMobs": false,
+      "GameObjectiveIndex": 2,
+      "RunTime": 5.0
+    },
+    {
+      "$type": "KillMobsTemplate",
+      "TargetObjects": [
+        {
+          "Hotspot": {
+            "Position": "-1881.78 -3157.037 61.83595",
+            "GroundPosition": "0 0 0",
+            "IsGroundPosition": false,
+            "ContinentId": 0
+          },
+          "Name": "Axtwerfer der Bleichborken",
+          "EntryId": 2554
+        },
+        {
+          "Hotspot": {
+            "Position": "-1856.051 -3154.518 51.75011",
+            "GroundPosition": "0 0 0",
+            "IsGroundPosition": false,
+            "ContinentId": 0
+          },
+          "Name": "Kopfjäger der Bleichborken",
+          "EntryId": 2556
+        },
+        {
+          "Hotspot": {
+            "Position": "-1879.998 -3202.418 56.38715",
+            "GroundPosition": "0 0 0",
+            "IsGroundPosition": false,
+            "ContinentId": 0
+          },
+          "Name": "Hexendoktor der Bleichborken",
+          "EntryId": 2555
+        }
+      ],
+      "HotspotsX": [
+        {
+          "Position": "-1833.624 -3125.457 45.24882",
+          "GroundPosition": "0 0 0",
+          "IsGroundPosition": false,
+          "ContinentId": 0
+        },
+        {
+          "Position": "-1880.407 -3198.181 56.53221",
+          "GroundPosition": "0 0 0",
+          "ContinentId": 0
+        },
+        {
+          "Position": "-1846.332 -3269.755 42.96836",
+          "GroundPosition": "0 0 0",
+          "ContinentId": 0
+        }
+      ],
+      "Blackspots": [],
+      "ForceLoot": true,
+      "ForcePullMobs": false,
+      "GameObjectiveIndex": 1,
+      "RunTime": 5.0
+    }
+  ]
+}

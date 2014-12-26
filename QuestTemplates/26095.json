@@ -1,0 +1,81 @@
+{
+  "QuestID": 26095,
+  "Version": 1,
+  "FactionGroup": 2,
+  "UpdatedOn": "2014-12-25T21:35:31.1044473Z",
+  "Comment": "",
+  "CreatedBy": null,
+  "QuestStart": {
+    "ObjectName": "Hauptmann Nials",
+    "EntryId": 2700,
+    "AdditionalEntryIds": null,
+    "ContinentId": 0,
+    "ZoneId": 45,
+    "Position": "-1274.687 -2516.632 21.34442",
+    "TurnInType": 0,
+    "IsIndoors": true,
+    "MyFaction": 0
+  },
+  "ActionOrder": 1,
+  "Actions": [
+    {
+      "$type": "KillMobsTemplate",
+      "TargetObjects": [
+        {
+          "Hotspot": {
+            "Position": "-1580.675 -1859.799 68.34959",
+            "GroundPosition": "0 0 0",
+            "ContinentId": 0
+          },
+          "Name": "Herbeizauberer des Syndikats",
+          "EntryId": 2590
+        },
+        {
+          "Hotspot": {
+            "Position": "-1645.722 -1919.635 73.7271",
+            "GroundPosition": "0 0 0",
+            "IsIndoors": true,
+            "ContinentId": 0
+          },
+          "Name": "Magus des Syndikats",
+          "EntryId": 2591
+        },
+        {
+          "Hotspot": {
+            "Position": "-1684.776 -1933.856 80.62751",
+            "GroundPosition": "0 0 0",
+            "ContinentId": 0
+          },
+          "Name": "Streuner des Syndikats",
+          "EntryId": 2588
+        },
+        {
+          "Hotspot": {
+            "Position": "-1595.211 -1927.8 68.16358",
+            "GroundPosition": "0 0 0",
+            "ContinentId": 0
+          },
+          "Name": "Dieb des Syndikats",
+          "EntryId": 24477
+        }
+      ],
+      "HotspotsX": [
+        {
+          "Position": "-1602.965 -1918.925 67.40456",
+          "GroundPosition": "0 0 0",
+          "ContinentId": 0
+        },
+        {
+          "Position": "-1600.013 -1868.02 67.46735",
+          "GroundPosition": "0 0 0",
+          "ContinentId": 0
+        }
+      ],
+      "Blackspots": [],
+      "ForceLoot": true,
+      "ForcePullMobs": false,
+      "GameObjectiveIndex": 1,
+      "RunTime": 5.0
+    }
+  ]
+}

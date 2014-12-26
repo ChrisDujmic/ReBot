@@ -1,0 +1,31 @@
+{
+  "QuestID": 26346,
+  "Version": 1,
+  "FactionGroup": 2,
+  "UpdatedOn": "2014-12-26T13:39:08.4884117Z",
+  "Comment": "",
+  "CreatedBy": null,
+  "QuestStart": {
+    "ObjectName": "Rumpelnder Verbannter",
+    "EntryId": 2592,
+    "AdditionalEntryIds": null,
+    "ContinentId": 0,
+    "ZoneId": 45,
+    "Position": "-1516.213 -2171.799 17.36035",
+    "TurnInType": 0,
+    "IsIndoors": true,
+    "MyFaction": 0
+  },
+  "QuestEnd": {
+    "ObjectName": "Skuerto",
+    "EntryId": 2789,
+    "AdditionalEntryIds": null,
+    "ContinentId": 0,
+    "ZoneId": 45,
+    "Position": "-1281.153 -2529.644 21.52161",
+    "TurnInType": 0,
+    "MyFaction": 2
+  },
+  "ActionOrder": 1,
+  "Actions": []
+}

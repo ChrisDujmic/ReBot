@@ -1,0 +1,31 @@
+{
+  "QuestID": 26113,
+  "Version": 1,
+  "FactionGroup": 2,
+  "UpdatedOn": "2014-12-26T12:10:52.9665252Z",
+  "Comment": "",
+  "CreatedBy": null,
+  "QuestStart": {
+    "ObjectName": "Kommandantin Amaren",
+    "EntryId": 2608,
+    "AdditionalEntryIds": null,
+    "ContinentId": 0,
+    "ZoneId": 45,
+    "Position": "-1254.536 -2513.531 20.50577",
+    "TurnInType": 0,
+    "IsIndoors": true,
+    "MyFaction": 0
+  },
+  "QuestEnd": {
+    "ObjectName": "Quae",
+    "EntryId": 2712,
+    "AdditionalEntryIds": null,
+    "ContinentId": 0,
+    "ZoneId": 45,
+    "Position": "-1425.679 -3033.319 32.80104",
+    "TurnInType": 0,
+    "MyFaction": 2
+  },
+  "ActionOrder": 1,
+  "Actions": []
+}

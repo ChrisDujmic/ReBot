@@ -1,0 +1,85 @@
+{
+  "QuestID": 26055,
+  "Version": 3,
+  "FactionGroup": 2,
+  "CreatedOn": "2014-12-25T22:23:03.6078069Z",
+  "UpdatedOn": "2014-12-25T22:52:09.6472032Z",
+  "Comment": "",
+  "CreatedBy": null,
+  "RecommendedLevel": 28,
+  "Frequency": 1,
+  "QuestStart": {
+    "ObjectName": "Kapitän Stahlmagen",
+    "EntryId": 2769,
+    "AdditionalEntryIds": null,
+    "ContinentId": 0,
+    "ZoneId": 45,
+    "Position": "-2072.441 -2090.776 9.183167",
+    "TurnInType": 0,
+    "IsIndoors": true,
+    "MyFaction": 0
+  },
+  "ActionOrder": 1,
+  "Actions": [
+    {
+      "$type": "KillMobsTemplate",
+      "TargetObjects": [
+        {
+          "Hotspot": {
+            "Position": "-2169.696 -1722.531 -39.75235",
+            "GroundPosition": "0 0 0",
+            "IsGroundPosition": false,
+            "InWater": true,
+            "ContinentId": 0
+          },
+          "Name": "Zauberin der Säbelflossen",
+          "EntryId": 2596
+        }
+      ],
+      "HotspotsX": [
+        {
+          "Position": "-2253.834 -1693.658 -3.148385",
+          "GroundPosition": "0 0 0",
+          "IsGroundPosition": false,
+          "InWater": true,
+          "ContinentId": 0
+        }
+      ],
+      "Blackspots": [],
+      "ForceLoot": false,
+      "ForcePullMobs": false,
+      "GameObjectiveIndex": 2,
+      "RunTime": 5.0
+    },
+    {
+      "$type": "KillMobsTemplate",
+      "TargetObjects": [
+        {
+          "Hotspot": {
+            "Position": "-2298.854 -1672.055 -34.71638",
+            "GroundPosition": "0 0 0",
+            "IsGroundPosition": false,
+            "InWater": true,
+            "ContinentId": 0
+          },
+          "Name": "Räuber der Säbelflossen",
+          "EntryId": 2595
+        }
+      ],
+      "HotspotsX": [
+        {
+          "Position": "-2253.834 -1693.658 -3.148385",
+          "GroundPosition": "0 0 0",
+          "IsGroundPosition": false,
+          "InWater": true,
+          "ContinentId": 0
+        }
+      ],
+      "Blackspots": [],
+      "ForceLoot": false,
+      "ForcePullMobs": false,
+      "GameObjectiveIndex": 1,
+      "RunTime": 5.0
+    }
+  ]
+}

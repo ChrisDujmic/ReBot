@@ -1,0 +1,55 @@
+{
+  "QuestID": 26116,
+  "Version": 7,
+  "FactionGroup": 2,
+  "CreatedOn": "2014-12-26T12:17:34.1984743Z",
+  "UpdatedOn": "2014-12-26T12:54:37.9846676Z",
+  "Comment": "",
+  "CreatedBy": null,
+  "RecommendedLevel": 28,
+  "Frequency": 1,
+  "StartEvent": true,
+  "IsRepeatable": true,
+  "OptRestartQuestTime": 180,
+  "OptAbandonAndReaccept": true,
+  "QuestStart": {
+    "ObjectName": "Kinelory",
+    "EntryId": 2713,
+    "AdditionalEntryIds": null,
+    "ContinentId": 0,
+    "ZoneId": 45,
+    "Position": "-1427.404 -3035.176 32.18517",
+    "TurnInType": 0,
+    "IsIndoors": true,
+    "MyFaction": 0
+  },
+  "QuestEnd": {
+    "ObjectName": "Quae",
+    "EntryId": 2712,
+    "AdditionalEntryIds": null,
+    "ContinentId": 0,
+    "ZoneId": 45,
+    "Position": "-1425.679 -3033.319 32.80083",
+    "TurnInType": 0,
+    "MyFaction": 2
+  },
+  "ActionOrder": 1,
+  "Actions": [
+    {
+      "$type": "FollowTemplate",
+      "FollowObject": {
+        "Hotspot": {
+          "Position": "-1427.404 -3035.176 32.18517",
+          "GroundPosition": "0 0 0",
+          "IsGroundPosition": false,
+          "ContinentId": 0
+        },
+        "Name": "Kinelory",
+        "EntryId": 2713
+      },
+      "CustomStopWhenIDAppears": "",
+      "GameObjectiveIndex": 1,
+      "RunTime": 120.0
+    }
+  ]
+}

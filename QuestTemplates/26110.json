@@ -1,0 +1,48 @@
+{
+  "QuestID": 26110,
+  "Version": 1,
+  "FactionGroup": 2,
+  "UpdatedOn": "2014-12-26T12:13:21.5330227Z",
+  "Comment": "",
+  "CreatedBy": null,
+  "QuestStart": {
+    "ObjectName": "Quae",
+    "EntryId": 2712,
+    "AdditionalEntryIds": null,
+    "ContinentId": 0,
+    "ZoneId": 45,
+    "Position": "-1425.679 -3033.319 32.80104",
+    "TurnInType": 0,
+    "IsIndoors": true,
+    "MyFaction": 0
+  },
+  "ActionOrder": 1,
+  "Actions": [
+    {
+      "$type": "KillMobsTemplate",
+      "TargetObjects": [
+        {
+          "Hotspot": {
+            "Position": "-1644.663 -2969.305 26.71389",
+            "GroundPosition": "0 0 0",
+            "ContinentId": 0
+          },
+          "Name": "Kurier der Verlassenen",
+          "EntryId": 2714
+        }
+      ],
+      "HotspotsX": [
+        {
+          "Position": "-1599.052 -2930.118 32.03453",
+          "GroundPosition": "0 0 0",
+          "ContinentId": 0
+        }
+      ],
+      "Blackspots": [],
+      "ForceLoot": true,
+      "ForcePullMobs": false,
+      "GameObjectiveIndex": 1,
+      "RunTime": 5.0
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "QuestID": 26042,
+  "Version": 3,
+  "FactionGroup": 2,
+  "CreatedOn": "2014-12-26T13:25:53.9859688Z",
+  "UpdatedOn": "2014-12-26T13:36:35.7806773Z",
+  "Comment": "",
+  "CreatedBy": null,
+  "RecommendedLevel": 29,
+  "Frequency": 1,
+  "QuestStart": {
+    "ObjectName": "Stein der Inneren Bindung",
+    "EntryId": 2702,
+    "AdditionalEntryIds": null,
+    "ContinentId": 0,
+    "ZoneId": 45,
+    "Position": "-1510.337 -2170.79 17.26296",
+    "TurnInType": 1,
+    "IsIndoors": true,
+    "MyFaction": 0
+  },
+  "QuestEnd": {
+    "ObjectName": "Schlüsselstein",
+    "EntryId": 2688,
+    "AdditionalEntryIds": [],
+    "ContinentId": 0,
+    "ZoneId": 45,
+    "Position": "-1527.509 -2165.451 17.14878",
+    "TurnInType": 1,
+    "IsIndoors": true,
+    "MyFaction": 2
+  },
+  "ActionOrder": 1,
+  "Actions": [
+    {
+      "$type": "KillMobsTemplate",
+      "TargetObjects": [
+        {
+          "Hotspot": {
+            "Position": "-1697.082 -2645.625 43.53646",
+            "GroundPosition": "0 0 0",
+            "IsGroundPosition": false,
+            "ContinentId": 0
+          },
+          "Name": "Fozruk",
+          "EntryId": 2611
+        }
+      ],
+      "HotspotsX": [
+        {
+          "Position": "-1657.633 -2612.902 42.15162",
+          "GroundPosition": "0 0 0",
+          "IsGroundPosition": false,
+          "ContinentId": 0
+        }
+      ],
+      "Blackspots": [],
+      "ForceLoot": true,
+      "ForcePullMobs": true,
+      "GameObjectiveIndex": 1,
+      "RunTime": 5.0
+    }
+  ]
+}

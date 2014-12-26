@@ -1,0 +1,49 @@
+{
+  "QuestID": 26050,
+  "Version": 2,
+  "FactionGroup": 2,
+  "CreatedOn": "2014-12-25T22:06:44.2531672Z",
+  "UpdatedOn": "2014-12-25T22:09:58.3013075Z",
+  "Comment": "",
+  "CreatedBy": null,
+  "QuestStart": {
+    "ObjectName": "Professor Prasseltrop",
+    "EntryId": 2768,
+    "AdditionalEntryIds": null,
+    "ContinentId": 0,
+    "ZoneId": 45,
+    "Position": "-2066.391 -2086.127 8.949112",
+    "TurnInType": 0,
+    "IsIndoors": true,
+    "MyFaction": 0
+  },
+  "QuestEnd": {
+    "ObjectName": "Doktor Drechselknacks",
+    "EntryId": 2774,
+    "AdditionalEntryIds": null,
+    "ContinentId": 0,
+    "ZoneId": 45,
+    "Position": "-2064.04 -2085.467 9.106079",
+    "TurnInType": 0,
+    "MyFaction": 2
+  },
+  "ActionOrder": 1,
+  "Actions": [
+    {
+      "$type": "FollowTemplate",
+      "FollowObject": {
+        "Hotspot": {
+          "Position": "-2066.391 -2086.127 8.949441",
+          "GroundPosition": "0 0 0",
+          "IsGroundPosition": false,
+          "ContinentId": 0
+        },
+        "Name": "Professor Prasseltrop",
+        "EntryId": 2768
+      },
+      "CustomStopWhenIDAppears": "",
+      "GameObjectiveIndex": 1,
+      "RunTime": 120.0
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "QuestID": 26341,
+  "Version": 1,
+  "FactionGroup": 2,
+  "UpdatedOn": "2014-12-25T23:22:28.0813166Z",
+  "Comment": "",
+  "CreatedBy": null,
+  "QuestStart": {
+    "ObjectName": "Skuerto",
+    "EntryId": 2789,
+    "AdditionalEntryIds": null,
+    "ContinentId": 0,
+    "ZoneId": 45,
+    "Position": "-1281.153 -2529.644 21.52161",
+    "TurnInType": 0,
+    "IsIndoors": true,
+    "MyFaction": 0
+  },
+  "QuestEnd": {
+    "ObjectName": "Splitter von Myzrael",
+    "EntryId": 138492,
+    "AdditionalEntryIds": [],
+    "ContinentId": 0,
+    "ZoneId": 45,
+    "Position": "-942.842 -3116.747 48.42065",
+    "TurnInType": 1,
+    "IsIndoors": true,
+    "MyFaction": 2
+  },
+  "ActionOrder": 1,
+  "Actions": []
+}

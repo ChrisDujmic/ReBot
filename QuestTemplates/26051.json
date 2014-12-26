@@ -1,0 +1,62 @@
+{
+  "QuestID": 26051,
+  "Version": 6,
+  "FactionGroup": 2,
+  "CreatedOn": "2014-12-25T22:26:06.4448433Z",
+  "UpdatedOn": "2014-12-25T22:50:18.9394597Z",
+  "Comment": "",
+  "CreatedBy": null,
+  "RecommendedLevel": 28,
+  "Frequency": 1,
+  "QuestStart": {
+    "ObjectName": "Doktor Drechselknacks",
+    "EntryId": 2774,
+    "AdditionalEntryIds": null,
+    "ContinentId": 0,
+    "ZoneId": 45,
+    "Position": "-2064.04 -2085.467 9.106079",
+    "TurnInType": 0,
+    "IsIndoors": true,
+    "MyFaction": 0
+  },
+  "ActionOrder": 1,
+  "Actions": [
+    {
+      "$type": "CollectObjectsTemplate",
+      "TargetObjects": [
+        {
+          "Hotspot": {
+            "Position": "-2278.116 -1763.997 -29.88505",
+            "GroundPosition": "0 0 0",
+            "IsGroundPosition": false,
+            "InWater": true,
+            "ContinentId": 0
+          },
+          "Name": "Verkalkter Elfenedelstein",
+          "EntryId": 2712
+        }
+      ],
+      "HotspotsX": [
+        {
+          "Position": "-2277.439 -1578.959 -5.541246",
+          "GroundPosition": "0 0 0",
+          "IsGroundPosition": false,
+          "InWater": true,
+          "ContinentId": 0
+        },
+        {
+          "Position": "-2298.834 -1565.607 -39.93617",
+          "GroundPosition": "0 0 0",
+          "InWater": true,
+          "ContinentId": 0
+        }
+      ],
+      "Blackspots": [],
+      "IsLoot": true,
+      "OpeningCast": true,
+      "NoMovement": false,
+      "GameObjectiveIndex": 1,
+      "RunTime": 5.0
+    }
+  ]
+}

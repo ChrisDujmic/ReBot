@@ -1,0 +1,31 @@
+{
+  "QuestID": 26114,
+  "Version": 1,
+  "FactionGroup": 2,
+  "UpdatedOn": "2014-12-26T12:15:14.1934665Z",
+  "Comment": "",
+  "CreatedBy": null,
+  "QuestStart": {
+    "ObjectName": "Quae",
+    "EntryId": 2712,
+    "AdditionalEntryIds": null,
+    "ContinentId": 0,
+    "ZoneId": 45,
+    "Position": "-1425.679 -3033.319 32.80104",
+    "TurnInType": 0,
+    "IsIndoors": true,
+    "MyFaction": 0
+  },
+  "QuestEnd": {
+    "ObjectName": "Kinelory",
+    "EntryId": 2713,
+    "AdditionalEntryIds": null,
+    "ContinentId": 0,
+    "ZoneId": 45,
+    "Position": "-1427.404 -3035.176 32.18517",
+    "TurnInType": 0,
+    "MyFaction": 2
+  },
+  "ActionOrder": 1,
+  "Actions": []
+}

@@ -1,0 +1,63 @@
+{
+  "QuestID": 26037,
+  "Version": 2,
+  "FactionGroup": 2,
+  "CreatedOn": "2014-12-26T13:52:28.6311773Z",
+  "UpdatedOn": "2014-12-26T13:52:34.8995358Z",
+  "Comment": "",
+  "CreatedBy": null,
+  "RecommendedLevel": 27,
+  "Frequency": 1,
+  "QuestStart": {
+    "ObjectName": "Skuerto",
+    "EntryId": 2789,
+    "AdditionalEntryIds": null,
+    "ContinentId": 0,
+    "ZoneId": 45,
+    "Position": "-1281.153 -2529.644 21.52094",
+    "TurnInType": 0,
+    "IsIndoors": true,
+    "MyFaction": 0
+  },
+  "QuestEnd": {
+    "ObjectName": "Lehrling Kryten",
+    "EntryId": 41983,
+    "AdditionalEntryIds": null,
+    "ContinentId": 0,
+    "ZoneId": 45,
+    "Position": "-1746.892 -1581.392 52.46044",
+    "TurnInType": 0,
+    "MyFaction": 2
+  },
+  "ActionOrder": 1,
+  "Actions": [
+    {
+      "$type": "KillMobsTemplate",
+      "TargetObjects": [
+        {
+          "Hotspot": {
+            "Position": "-1777.884 -1581.056 52.98922",
+            "GroundPosition": "0 0 0",
+            "IsGroundPosition": false,
+            "ContinentId": 0
+          },
+          "Name": "Schamane der Felsfäuste",
+          "EntryId": 2570
+        }
+      ],
+      "HotspotsX": [
+        {
+          "Position": "-1744.518 -1653.987 52.12674",
+          "GroundPosition": "0 0 0",
+          "IsGroundPosition": false,
+          "ContinentId": 0
+        }
+      ],
+      "Blackspots": [],
+      "ForceLoot": true,
+      "ForcePullMobs": false,
+      "GameObjectiveIndex": 1,
+      "RunTime": 5.0
+    }
+  ]
+}

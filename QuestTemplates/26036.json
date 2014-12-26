@@ -1,0 +1,55 @@
+{
+  "QuestID": 26036,
+  "Version": 3,
+  "FactionGroup": 2,
+  "CreatedOn": "2014-12-26T13:32:22.4351868Z",
+  "UpdatedOn": "2014-12-26T13:39:23.3122596Z",
+  "Comment": "",
+  "CreatedBy": null,
+  "RecommendedLevel": 26,
+  "Frequency": 1,
+  "QuestStart": {
+    "ObjectName": "Skuerto",
+    "EntryId": 2789,
+    "AdditionalEntryIds": null,
+    "ContinentId": 0,
+    "ZoneId": 45,
+    "Position": "-1281.153 -2529.644 21.5216",
+    "TurnInType": 0,
+    "IsIndoors": true,
+    "MyFaction": 0
+  },
+  "ActionOrder": 1,
+  "Actions": [
+    {
+      "$type": "KillMobsTemplate",
+      "TargetObjects": [
+        {
+          "Hotspot": {
+            "Position": "-2098.22 -2837.685 79.05601",
+            "GroundPosition": "0 0 0",
+            "IsGroundPosition": false,
+            "IsIndoors": true,
+            "ContinentId": 0
+          },
+          "Name": "Kor'gresh Frostzorn",
+          "EntryId": 2793
+        }
+      ],
+      "HotspotsX": [
+        {
+          "Position": "-2013.843 -2836.158 75.01239",
+          "GroundPosition": "0 0 0",
+          "IsGroundPosition": false,
+          "IsIndoors": true,
+          "ContinentId": 0
+        }
+      ],
+      "Blackspots": [],
+      "ForceLoot": true,
+      "ForcePullMobs": false,
+      "GameObjectiveIndex": 1,
+      "RunTime": 5.0
+    }
+  ]
+}

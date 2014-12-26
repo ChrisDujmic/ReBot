@@ -1,0 +1,85 @@
+{
+  "QuestID": 26039,
+  "Version": 5,
+  "FactionGroup": 2,
+  "CreatedOn": "2014-12-25T23:34:07.3824426Z",
+  "UpdatedOn": "2014-12-26T11:54:16.158511Z",
+  "Comment": "",
+  "CreatedBy": null,
+  "RecommendedLevel": 29,
+  "Frequency": 1,
+  "QuestStart": {
+    "ObjectName": "Splitter von Myzrael",
+    "EntryId": 138492,
+    "AdditionalEntryIds": null,
+    "ContinentId": 0,
+    "ZoneId": 45,
+    "Position": "-942.842 -3116.747 48.42065",
+    "TurnInType": 1,
+    "IsIndoors": true,
+    "MyFaction": 0
+  },
+  "QuestEnd": {
+    "ObjectName": "Regenbogenfarbene Splitter",
+    "EntryId": 2701,
+    "AdditionalEntryIds": [],
+    "ContinentId": 0,
+    "ZoneId": 45,
+    "Position": "-876.186 -3901.82 142.851",
+    "TurnInType": 1,
+    "MyFaction": 2
+  },
+  "ActionOrder": 1,
+  "Actions": [
+    {
+      "$type": "KillMobsTemplate",
+      "TargetObjects": [
+        {
+          "Hotspot": {
+            "Position": "-1203.025 -3604.223 55.23074",
+            "GroundPosition": "0 0 0",
+            "IsGroundPosition": false,
+            "ContinentId": 0
+          },
+          "Name": "Kobold der Trockenstoppel",
+          "EntryId": 2572
+        },
+        {
+          "Hotspot": {
+            "Position": "-931.7859 -3947.962 148.4247",
+            "GroundPosition": "0 0 0",
+            "IsGroundPosition": false,
+            "IsIndoors": true,
+            "ContinentId": 0
+          },
+          "Name": "Buddler der Trockenstoppel",
+          "EntryId": 2574
+        },
+        {
+          "Hotspot": {
+            "Position": "-906.4865 -3854.168 140.919",
+            "GroundPosition": "0 0 0",
+            "IsGroundPosition": false,
+            "IsIndoors": true,
+            "ContinentId": 0
+          },
+          "Name": "Feldvermesser der Trockenstoppel",
+          "EntryId": 2573
+        }
+      ],
+      "HotspotsX": [
+        {
+          "Position": "-830.4726 -3908.174 144.9003",
+          "GroundPosition": "0 0 0",
+          "IsIndoors": true,
+          "ContinentId": 0
+        }
+      ],
+      "Blackspots": [],
+      "ForceLoot": true,
+      "ForcePullMobs": false,
+      "GameObjectiveIndex": 1,
+      "RunTime": 5.0
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "QuestID": 26093,
+  "Version": 4,
+  "FactionGroup": 2,
+  "CreatedOn": "2014-12-25T21:04:59.926924Z",
+  "UpdatedOn": "2014-12-25T21:07:46.5898544Z",
+  "Comment": "Söldnerin can be added to :D but i killed the onlyone i found and not saw id",
+  "CreatedBy": null,
+  "RecommendedLevel": 26,
+  "Frequency": 1,
+  "QuestStart": {
+    "ObjectName": "Hauptmann Nials",
+    "EntryId": 2700,
+    "AdditionalEntryIds": null,
+    "ContinentId": 0,
+    "ZoneId": 45,
+    "Position": "-1274.687 -2516.632 21.34494",
+    "TurnInType": 0,
+    "IsIndoors": true,
+    "MyFaction": 0
+  },
+  "ActionOrder": 1,
+  "Actions": [
+    {
+      "$type": "KillMobsTemplate",
+      "TargetObjects": [
+        {
+          "Hotspot": {
+            "Position": "-881.2236 -2041.609 34.00433",
+            "GroundPosition": "0 0 0",
+            "IsGroundPosition": false,
+            "ContinentId": 0
+          },
+          "Name": "Pfadpirscher des Syndikats",
+          "EntryId": 2587
+        },
+        {
+          "Hotspot": {
+            "Position": "-854.7537 -2001.86 34.73539",
+            "GroundPosition": "0 0 0",
+            "IsGroundPosition": false,
+            "ContinentId": 0
+          },
+          "Name": "Söldner des Syndikats",
+          "EntryId": 2589
+        },
+        {
+          "Hotspot": {
+            "Position": "-863.8115 -2065.866 34.46305",
+            "GroundPosition": "0 0 0",
+            "IsGroundPosition": false,
+            "ContinentId": 0
+          },
+          "Name": "Straßenräuber des Syndikats",
+          "EntryId": 2586
+        }
+      ],
+      "HotspotsX": [
+        {
+          "Position": "-914.985 -2076.378 49.65195",
+          "GroundPosition": "0 0 0",
+          "IsGroundPosition": false,
+          "ContinentId": 0
+        },
+        {
+          "Position": "-866.5571 -2066.076 35.67216",
+          "GroundPosition": "0 0 0",
+          "IsGroundPosition": false,
+          "ContinentId": 0
+        }
+      ],
+      "Blackspots": [],
+      "ForceLoot": false,
+      "ForcePullMobs": false,
+      "GameObjectiveIndex": 1,
+      "RunTime": 5.0
+    }
+  ]
+}

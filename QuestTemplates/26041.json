@@ -1,0 +1,117 @@
+{
+  "QuestID": 26041,
+  "Version": 6,
+  "FactionGroup": 2,
+  "CreatedOn": "2014-12-26T09:55:05.2435021Z",
+  "UpdatedOn": "2014-12-26T13:22:41.5729634Z",
+  "Comment": "",
+  "CreatedBy": null,
+  "RecommendedLevel": 29,
+  "Frequency": 1,
+  "QuestStart": {
+    "ObjectName": "Regenbogenfarbene Splitter",
+    "EntryId": 2701,
+    "AdditionalEntryIds": null,
+    "ContinentId": 0,
+    "ZoneId": 45,
+    "Position": "-876.186 -3901.82 142.851",
+    "TurnInType": 1,
+    "IsIndoors": true,
+    "MyFaction": 0
+  },
+  "QuestEnd": {
+    "ObjectName": "Stein der Inneren Bindung",
+    "EntryId": 2702,
+    "AdditionalEntryIds": [],
+    "ContinentId": 0,
+    "ZoneId": 45,
+    "Position": "-1510.337 -2170.79 17.26296",
+    "TurnInType": 1,
+    "IsIndoors": true,
+    "MyFaction": 2
+  },
+  "ActionOrder": 1,
+  "Actions": [
+    {
+      "$type": "GossipInteractionTemplate",
+      "TargetObjects": [
+        {
+          "Hotspot": {
+            "Position": "-846.5816 -3268.04 78.02402",
+            "GroundPosition": "0 0 0",
+            "IsGroundPosition": false,
+            "ContinentId": 0
+          },
+          "Name": "Stein der Östlichen Bindung",
+          "EntryId": 2691
+        }
+      ],
+      "HotspotsX": [
+        {
+          "Position": "-861.6331 -3264.424 79.0077",
+          "GroundPosition": "0 0 0",
+          "IsGroundPosition": false,
+          "ContinentId": 0
+        }
+      ],
+      "GossipIndex": 1,
+      "Dismount": false,
+      "GameObjectiveIndex": 2,
+      "RunTime": 5.0
+    },
+    {
+      "$type": "GossipInteractionTemplate",
+      "TargetObjects": [
+        {
+          "Hotspot": {
+            "Position": "-1350.809 -2740.07 59.16227",
+            "GroundPosition": "0 0 0",
+            "IsGroundPosition": false,
+            "ContinentId": 0
+          },
+          "Name": "Stein der Äußeren Bindung",
+          "EntryId": 2690
+        }
+      ],
+      "HotspotsX": [
+        {
+          "Position": "-1347.047 -2762.094 57.70869",
+          "GroundPosition": "0 0 0",
+          "IsGroundPosition": false,
+          "ContinentId": 0
+        }
+      ],
+      "GossipIndex": 1,
+      "Dismount": false,
+      "GameObjectiveIndex": 3,
+      "RunTime": 5.0
+    },
+    {
+      "$type": "GossipInteractionTemplate",
+      "TargetObjects": [
+        {
+          "Hotspot": {
+            "Position": "-855.908 -1783.29 39.61349",
+            "GroundPosition": "0 0 0",
+            "IsGroundPosition": false,
+            "ContinentId": 0
+          },
+          "Name": "Stein der Westlichen Bindung",
+          "EntryId": 2689
+        }
+      ],
+      "HotspotsX": [
+        {
+          "Position": "-917.3918 -1846.247 61.7052",
+          "GroundPosition": "0 0 0",
+          "IsGroundPosition": false,
+          "ContinentId": 0
+        }
+      ],
+      "GossipIndex": 1,
+      "Dismount": false,
+      "GameObjectiveIndex": 1,
+      "RunTime": 5.0
+    }
+  ]
+}

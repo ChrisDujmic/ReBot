@@ -1,0 +1,121 @@
+{
+  "QuestID": 26038,
+  "Version": 2,
+  "FactionGroup": 2,
+  "CreatedOn": "2014-12-26T13:56:10.7848837Z",
+  "UpdatedOn": "2014-12-26T14:05:04.0243833Z",
+  "Comment": "",
+  "CreatedBy": null,
+  "RecommendedLevel": 27,
+  "Frequency": 1,
+  "QuestStart": {
+    "ObjectName": "Lehrling Kryten",
+    "EntryId": 41983,
+    "AdditionalEntryIds": null,
+    "ContinentId": 0,
+    "ZoneId": 45,
+    "Position": "-1746.892 -1581.392 52.46044",
+    "TurnInType": 0,
+    "MyFaction": 0
+  },
+  "QuestEnd": {
+    "ObjectName": "Skuerto",
+    "EntryId": 2789,
+    "AdditionalEntryIds": null,
+    "ContinentId": 0,
+    "ZoneId": 45,
+    "Position": "-1281.153 -2529.644 21.5209",
+    "TurnInType": 0,
+    "MyFaction": 2
+  },
+  "ActionOrder": 1,
+  "Actions": [
+    {
+      "$type": "CollectObjectsTemplate",
+      "TargetObjects": [
+        {
+          "Hotspot": {
+            "Position": "-1768.742 -1521.206 75.23772",
+            "GroundPosition": "0 0 0",
+            "IsGroundPosition": false,
+            "ContinentId": 0
+          },
+          "Name": "Trelanes Schließkiste",
+          "EntryId": 2717
+        }
+      ],
+      "HotspotsX": [
+        {
+          "Position": "-1756.006 -1547.187 60.88799",
+          "GroundPosition": "0 0 0",
+          "IsGroundPosition": false,
+          "ContinentId": 0
+        }
+      ],
+      "Blackspots": [],
+      "IsLoot": true,
+      "OpeningCast": true,
+      "NoMovement": false,
+      "GameObjectiveIndex": 1,
+      "RunTime": 5.0
+    },
+    {
+      "$type": "CollectObjectsTemplate",
+      "TargetObjects": [
+        {
+          "Hotspot": {
+            "Position": "-1762.314 -1515.684 90.60927",
+            "GroundPosition": "0 0 0",
+            "IsGroundPosition": false,
+            "ContinentId": 0
+          },
+          "Name": "Trelanes Schließkassette",
+          "EntryId": 2718
+        }
+      ],
+      "HotspotsX": [
+        {
+          "Position": "-1756.006 -1547.187 60.88799",
+          "GroundPosition": "0 0 0",
+          "IsGroundPosition": false,
+          "ContinentId": 0
+        }
+      ],
+      "Blackspots": [],
+      "IsLoot": true,
+      "OpeningCast": true,
+      "NoMovement": false,
+      "GameObjectiveIndex": 3,
+      "RunTime": 5.0
+    },
+    {
+      "$type": "CollectObjectsTemplate",
+      "TargetObjects": [
+        {
+          "Hotspot": {
+            "Position": "-1792.98 -1520.953 99.39425",
+            "GroundPosition": "0 0 0",
+            "IsGroundPosition": false,
+            "ContinentId": 0
+          },
+          "Name": "Trelanes Truhe",
+          "EntryId": 2716
+        }
+      ],
+      "HotspotsX": [
+        {
+          "Position": "-1786.013 -1521.302 99.34696",
+          "GroundPosition": "0 0 0",
+          "IsIndoors": true,
+          "ContinentId": 0
+        }
+      ],
+      "Blackspots": [],
+      "IsLoot": true,
+      "OpeningCast": true,
+      "NoMovement": false,
+      "GameObjectiveIndex": 2,
+      "RunTime": 5.0
+    }
+  ]
+}
